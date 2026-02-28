@@ -1,0 +1,37 @@
+# List of Python requirements 
+requests
+expandvars
+pillow
+pyaudio
+pydub
+openai
+tiktoken
+newspaper3k
+mcp
+lxml
+lxml_html_clean
+pylatexenc
+matplotlib
+markdownify
+# If you are packaging the application, you can ignore these requirements
+# (better if you install them)
+model2vec
+faiss-cpu
+llama-index-core
+llama-index-readers-file
+llama-index-vector-stores-faiss
+llama-index-retrievers-bm25
+docx2txt
+speechrecognition
+gtts
+
+# Nyarch Specific
+edge-tts
+scikit-learn
+livepng
+# list of non-python requirements
+# - git
+# - vte4
+# - llama-server (optional)
+# - portaudio
+# - webkitgtk-6.0

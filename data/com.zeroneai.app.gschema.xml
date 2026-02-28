@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="zeroneai">
+	<schema id="com.zeroneai.app" path="/moe/zeroneai/assistant/">
+        <key name="offers" type="i">
+            <default>0</default>
+        </key>
+        <key name="virtualization" type="b">
+            <default>true</default>
+        </key>
+        <key name="memory" type="i">
+            <default>10</default>
+        </key>
+        <key name="hidden-files" type="b">
+            <default>false</default>
+        </key>
+        <key name="remove-thinking" type="b">
+            <default>true</default>
+        </key>
+        <key name="reverse-order" type="b">
+            <default>true</default>
+        </key>
+        <key name="auto-generate-name" type="b">
+            <default>true</default>
+        </key>
+        <key name="display-latex" type="b">
+            <default>true</default>
+        </key>
+        <key name="path" type="s">
+            <default>"~"</default>
+        </key>
+        <key name="chat" type="i">
+            <default>0</default>
+        </key>
+	      <key name="auto-run" type="b">
+            <default>false</default>
+        </key>
+        <key name="prompts-settings" type="s">
+            <default>"{}"</default>
+          </key>
+	      <key name="basic-functionality" type="b">
+            <default>true</default>
+        </key>
+		    <key name="expression-prompt" type="b">
+            <default>true</default>
+        </key>
+	      <key name="show-image" type="b">
+            <default>true</default>
+        </key>
+	  	  <key name="custom-extra-prompt" type="b">
+            <default>false</default>
+        </key>
+	      <key name="secondary-llm-on" type="b">
+            <default>false</default>
+        </key>
+	      <key name="secondary-language-model" type="s">
+            <default>"zeroneai"</default>
+        </key>
+	      <key name="language-model" type="s">
+            <default>"zeroneai"</default>
+        </key>
+	      <key name="llm-settings" type="s">
+            <default>"{}"</default>
+        </key>
+	      <key name="llm-secondary-settings" type="s">
+            <default>"{}"</default>
+        </key>
+	      <key name="tts-on" type="b">
+            <default>true</default>
+        </key>
+	      <key name="tts" type="s">
+            <default>"edge_tts"</default>
+        </key>
+	      <key name="tts-voice" type="s">
+            <default>"{}"</default>
+        </key>
+	      <key name="avatar-on" type="b">
+            <default>true</default>
+        </key>
+	      <key name="avatar-model" type="s">
+            <default>"Live2D"</default>
+        </key>
+	      <key name="avatars" type="s">
+            <default>"{}"</default>
+        </key>
+	      <key name="stt-engine" type="s">
+            <default>"google_sr"</default>
+        </key>
+	      <key name="stt-settings" type="s">
+	        <default>"{}"</default>
+        </key>
+	      <key name="embedding-model" type="s">
+            <default>"model2vec"</default>
+        </key>
+	      <key name="embedding-settings" type="s">
+            <default>"{}"</default>
+        </key>
+        <key name="memory-on" type="b">
+          <default>false</default>
+        </key>
+	      <key name="memory-model" type="s">
+            <default>"user-summary"</default>
+        </key>
+	      <key name="memory-settings" type="s">
+            <default>"{}"</default>
+        </key>
+        <key name="websearch-on" type="b">
+          <default>true</default>
+        </key>
+        <key name="websearch-settings" type="s">
+          <default>"{}"</default>
+        </key>
+        <key name="websearch-model" type="s">
+          <default>"ddgsearch"</default>
+        </key>
+        <key name="rag-on" type="b">
+          <default>false</default>
+        </key>
+	      <key name="rag-model" type="s">
+            <default>"llamaindex"</default>
+        </key>
+	      <key name="rag-settings" type="s">
+            <default>"{}"</default>
+        </key>
+	      <key name="rag-on-documents" type="b">
+            <default>true</default>
+        </key>
+        <key name="documents-context-limit" type="i">
+          <default>5000</default>
+        </key>
+        <key name="automatic-stt" type="b">
+          <default>false</default>
+        </key>
+        <key name="stt-silence-detection-threshold" type="d">
+          <default>0.07</default>
+        </key>
+        <key name="stt-silence-detection-duration" type="i">
+          <default>3</default>
+          </key> 
+        <key name="welcome-screen-shown" type="b"> 
+          <default>false</default> 
+        </key>
+	      <key name="custom-prompts" type="s">
+	        <default>"{}"</default>
+        </key>
+        <key name="external-terminal-on" type="b">
+          <default>false</default>
+        </key>
+        <key name="external-terminal" type="s">
+          <default>"gnome-terminal -- bash -c {0}"</default>
+        </key>
+        <key name="extensions-settings" type="s">
+          <default>"{}"</default>
+        </key>
+        <key name="profiles" type="s">
+          <default>"{}"</default>
+        </key>
+        <key name="current-profile" type="s">
+          <default>"Arch-chan"</default>
+        </key>
+        <key name="translator" type="s">
+          <default>"LibreTranslate"</default>
+        </key>
+        <key name="translator-settings" type="s">
+          <default>"{}"</default>
+        </key>
+        <key name="translator-on" type="b">
+          <default>false</default>
+        </key>
+        <key name="smart-prompt" type="s">
+          <default>"LogicalRegression"</default>
+        </key>
+        <key name="smart-prompt-settings" type="s">
+          <default>"{}"</default>
+        </key>
+        <key name="smart-prompt-on" type="b">
+          <default>true</default>
+        </key>
+        <key name="user-name" type="s">
+          <default>"User"</default>
+        </key>
+	      <key name="startup-mode" type="s">
+          <default>"normal"</default>
+        </key>
+        <key name="zoom" type="i">
+          <default>100</default>
+        </key>
+        <key name="send-on-enter" type="b">
+          <default>true</default>
+        </key>
+        <key name="max-run-times" type="i">
+          <default>5</default>
+        </key>
+	      <key name="window-width" type="i">
+          <default>1400</default>
+        </key>
+	      <key name="window-height" type="i">
+          <default>800</default>
+        </key>
+        <key name="external-browser" type="b">
+          <default>false</default>
+        </key>
+        <key name="initial-browser-page" type="s">
+          <default>"https://duckduckgo.com"</default>
+        </key>
+        <key name="browser-search-string" type="s">
+          <default>"https://duckduckgo.com/?q=%s"</default>
+        </key>
+        <key name="browser-session-persist" type="b">
+          <default>true</default>
+        </key>
+        <key name="editor-color-scheme" type="s">
+          <default>"Adwaita-dark"</default>
+        </key>
+        <key name="tools-settings" type="s">
+          <default>"{}"</default>
+        </key>
+        <key name="mcp-servers" type="s">
+          <default>"[]"</default>
+        </key> 
+        <key name="remember-profile" type="b">
+          <default>false</default>
+        </key>
+        <key name="hide-history-on-launch" type="b">
+            <default>false</default>
+        </key>
+        <key name="parallel-tool-execution" type="b">
+            <default>false</default>
+        </key>
+        <key name="custom-document-folders" type="as">
+            <default>[]</default>
+        </key>
+        <key name="app-language" type="s">
+          <default>"system"</default>
+          <summary>Application Language</summary>
+          <description>Language to use for the application interface</description>
+        </key>
+	</schema>
+</schemalist>

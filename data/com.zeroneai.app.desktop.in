@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ZERONE AI
+Comment=Advanced AI waifu to help you
+Exec=zeroneai
+Icon=com.zeroneai.app
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=true
+Keywords=ai;assistant;chat;chatgpt;gpt;llm;ollama;

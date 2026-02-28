@@ -1,0 +1,3626 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-19 07:20+0000\n"
+"PO-Revision-Date: 2025-07-03 09:00+0200\n"
+"Last-Translator: Yehor Hliebov <qsk@gmx.at>\n"
+"Language-Team: Hungarian <qsk@gmx.at>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ui/mini_window.py:9
+#, fuzzy
+msgid "ZERONE AI Mini Window"
+msgstr "Mini ablak"
+
+#: src/ui/mini_window.py:20
+msgid "Chat is opened in mini window"
+msgstr "A csevegés mini ablakban nyílt meg"
+
+#: src/ui/model_library.py:354
+#, fuzzy
+msgid "Add Custom Model"
+msgstr "Egyéni modell hozzáadása"
+
+#: src/ui/model_library.py:355
+msgid "Enter the model name (e.g. llama3:8b - ollama only) or HF path"
+msgstr ""
+
+#: src/ui/settings.py:60 src/constants.py:674
+msgid "General"
+msgstr "Általános"
+
+#: src/ui/settings.py:61 src/constants.py:624
+msgid "LLM"
+msgstr "LLM"
+
+#: src/ui/settings.py:62 src/constants.py:679
+msgid "Prompts"
+msgstr "Üzenetek"
+
+#: src/ui/settings.py:63 src/ui/settings.py:412 src/constants.py:566
+#: src/constants.py:684
+msgid "Tools"
+msgstr ""
+
+#: src/ui/settings.py:64
+msgid "Knowledge"
+msgstr "Tudás"
+
+#: src/ui/settings.py:65 src/ui/settings.py:184 src/constants.py:639
+msgid "Avatar"
+msgstr ""
+
+#: src/ui/settings.py:69
+msgid "Language Model"
+msgstr "Nyelvi modell"
+
+#: src/ui/settings.py:79 src/ui/settings.py:100
+msgid "Other LLMs"
+msgstr "Egyéb LLM-ek"
+
+#: src/ui/settings.py:79 src/ui/settings.py:100
+msgid "Other available LLM providers"
+msgstr "Egyéb elérhető LLM szolgáltatók"
+
+#: src/ui/settings.py:90
+msgid "Advanced LLM Settings"
+msgstr "Haladó LLM beállítások"
+
+#: src/ui/settings.py:94
+msgid "Secondary Language Model"
+msgstr "Másodlagos nyelvi modell"
+
+#: src/ui/settings.py:94
+#, fuzzy
+msgid ""
+"Model used for secondary tasks, like offers, chat name and memory generation"
+msgstr ""
+"Másodlagos feladatokhoz, például ajánlatokhoz, csevegésnevekhez és memória "
+"generáláshoz használt modell"
+
+#: src/ui/settings.py:111
+msgid "Embedding Model"
+msgstr "Beágyazási modell"
+
+#: src/ui/settings.py:111
+msgid ""
+"Embedding is used to trasform text into vectors. Used by Long Term Memory "
+"and RAG. Changing it might require you to re-index documents or reset memory."
+msgstr ""
+"A beágyazás szöveg vektorokká alakítására szolgál. A hosszú távú memória és "
+"a RAG használja. A módosítása szükségessé teheti a dokumentumok "
+"újrainexelését vagy a memória alaphelyzetbe állítását."
+
+#: src/ui/settings.py:122 src/ui/widgets/chat_tab.py:210 src/window.py:761
+msgid "Long Term Memory"
+msgstr "Hosszú távú memória"
+
+#: src/ui/settings.py:122
+msgid "Keep memory of old conversations"
+msgstr "Régi beszélgetések megőrzése"
+
+#: src/ui/settings.py:134
+msgid "Web Search"
+msgstr "Webes keresés"
+
+#: src/ui/settings.py:134
+msgid "Search information on the Web"
+msgstr "Információ keresése a weben"
+
+#: src/ui/settings.py:146 src/handlers/tts/custom_openai_tts.py:19
+#: src/handlers/tts/openai_tts_handler.py:19
+#: src/handlers/tts/groq_tts_handler.py:33 src/handlers/tts/tts.py:33
+#: src/handlers/tts/elevenlabs_handler.py:18
+msgid "Voice"
+msgstr "Hang"
+
+#: src/ui/settings.py:150
+msgid "Text To Speech Program"
+msgstr "Szövegfelolvasó program"
+
+#: src/ui/settings.py:150
+msgid "Choose which text to speech to use"
+msgstr "Válassza ki a használni kívánt szövegfelolvasót"
+
+#: src/ui/settings.py:163
+msgid "Translator program"
+msgstr ""
+
+#: src/ui/settings.py:163
+msgid "Translate the output of the LLM before passing it to the TTS Program"
+msgstr ""
+
+#: src/ui/settings.py:171
+msgid "Speech To Text Engine"
+msgstr "Beszédfelismerő motor"
+
+#: src/ui/settings.py:171
+msgid "Choose which speech recognition engine you want"
+msgstr "Válassza ki a használni kívánt beszédfelismerő motort"
+
+#: src/ui/settings.py:179
+msgid "Automatic Speech To Text"
+msgstr "Automatikus beszédfelismerés"
+
+#: src/ui/settings.py:179
+msgid "Automatically restart speech to text at the end of a text/TTS"
+msgstr "Automatikusan újraindítja a beszédfelismerést egy szöveg/TTS végén"
+
+#: src/ui/settings.py:188
+msgid "Avatar model"
+msgstr ""
+
+#: src/ui/settings.py:188
+#, fuzzy
+msgid "Choose which avatar model to choose"
+msgstr "Válassza ki a használni kívánt szövegfelolvasót"
+
+#: src/ui/settings.py:197
+msgid "Prompt control"
+msgstr "Üzenet vezérlés"
+
+#: src/ui/settings.py:204
+msgid "Interface"
+msgstr "Felület"
+
+#: src/ui/settings.py:209
+msgid "System Default"
+msgstr ""
+
+#: src/ui/settings.py:236 src/handlers/stt/groqsr_handler.py:29
+#: src/handlers/stt/googlesr_handler.py:23
+#: src/handlers/stt/openaisr_handler.py:32
+#: src/handlers/stt/whispercpp_handler.py:47
+msgid "Language"
+msgstr "Nyelv"
+
+#: src/ui/settings.py:236
+msgid "Application interface language (restart required)"
+msgstr ""
+
+#: src/ui/settings.py:245
+msgid "Interface Size"
+msgstr "Felület mérete"
+
+#: src/ui/settings.py:245
+msgid "Adjust the size of the interface"
+msgstr "A felület méretének beállítása"
+
+#: src/ui/settings.py:257
+msgid "Editor color scheme"
+msgstr "Szerkesztő színvilága"
+
+#: src/ui/settings.py:257
+msgid "Change the color scheme of the editor and codeblocks"
+msgstr "A szerkesztő és a kódblokkok színvilágának módosítása"
+
+#: src/ui/settings.py:264
+msgid "Hidden files"
+msgstr "Rejtett fájlok"
+
+#: src/ui/settings.py:264
+msgid "Show hidden files"
+msgstr "Rejtett fájlok megjelenítése"
+
+#: src/ui/settings.py:270
+msgid "Hide History on Launch"
+msgstr ""
+
+#: src/ui/settings.py:270
+msgid "Hide the history sidebar when the application starts"
+msgstr ""
+
+#: src/ui/settings.py:276
+msgid "Remember assistant profile per chat"
+msgstr ""
+
+#: src/ui/settings.py:276
+msgid ""
+"When changing chat, the profile corresponding to the last generation is "
+"selected"
+msgstr ""
+
+#: src/ui/settings.py:282
+msgid "Send with ENTER"
+msgstr "Küldés ENTER billentyűvel"
+
+#: src/ui/settings.py:282
+msgid ""
+"If enabled, messages will be sent with ENTER, to go to a new line use "
+"CTRL+ENTER. If disabled, messages will be sent with SHIFT+ENTER, and newline "
+"with enter"
+msgstr ""
+"Ha engedélyezve van, az üzeneteket ENTER-rel küldi el, új sorba a CTRL+ENTER "
+"billentyűkkel lehet lépni. Ha letiltva van, az üzeneteket SHIFT+ENTER-rel "
+"küldi el, és az ENTER új sort hoz létre."
+
+#: src/ui/settings.py:288
+msgid "Remove thinking from history"
+msgstr "Gondolkodás eltávolítása az előzményekből"
+
+#: src/ui/settings.py:288
+msgid ""
+"Do not send old thinking blocks for reasoning models in order to reduce "
+"token usage"
+msgstr ""
+"Ne küldjön régi gondolkodási blokkokat a gondolkodó modelleknek a token "
+"felhasználás csökkentése érdekében."
+
+#: src/ui/settings.py:294
+msgid "Display LaTeX"
+msgstr "LaTeX megjelenítése"
+
+#: src/ui/settings.py:294
+msgid "Display LaTeX formulas in chat"
+msgstr "LaTeX képletek megjelenítése a csevegésben"
+
+#: src/ui/settings.py:300
+msgid "Reverse Chat Order"
+msgstr "Csevegés sorrendjének megfordítása"
+
+#: src/ui/settings.py:300
+msgid "Show most recent chats on top in chat list (change chat to apply)"
+msgstr ""
+"A legutóbbi csevegések megjelenítése felül a csevegéslistán (a csevegés "
+"módosítása után lép érvénybe)"
+
+#: src/ui/settings.py:306
+msgid "Automatically Generate Chat Names"
+msgstr "Automatikus csevegésnevek generálása"
+
+#: src/ui/settings.py:306
+msgid "Generate chat names automatically after the first two messages"
+msgstr "A csevegésnevek automatikus generálása az első két üzenet után"
+
+#: src/ui/settings.py:313
+msgid "Number of offers"
+msgstr "Ajánlatok száma"
+
+#: src/ui/settings.py:313
+msgid "Number of message suggestions to send to chat "
+msgstr "A csevegéshez küldendő üzenetjavaslatok száma "
+
+#: src/ui/settings.py:321
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: src/ui/settings.py:321
+#, python-brace-format
+msgid ""
+"Change the label that appears before your message\n"
+"This information is not sent to the LLM by default\n"
+"You can add it to a prompt using the {USER} variable"
+msgstr ""
+"Módosítsa az üzenete előtt megjelenő címkét\n"
+"Ez az információ alapértelmezés szerint nem kerül elküldésre az LLM-nek\n"
+"Hozzáadhatja egy üzenethez a {USER} változó használatával"
+
+#: src/ui/settings.py:331
+msgid "Neural Network Control"
+msgstr "Neuronhálózati vezérlés"
+
+#: src/ui/settings.py:336 src/window.py:768
+msgid "Command virtualization"
+msgstr "Parancs virtualizálás"
+
+#: src/ui/settings.py:336
+msgid "Run commands in a virtual machine"
+msgstr "Parancsok futtatása virtuális gépen"
+
+#: src/ui/settings.py:349
+msgid "Parallel Tool Execution"
+msgstr ""
+
+#: src/ui/settings.py:349
+msgid "Allow the model to execute multiple tools in parallel"
+msgstr ""
+
+#: src/ui/settings.py:355
+msgid "External Terminal"
+msgstr "Külső terminál"
+
+#: src/ui/settings.py:355
+msgid "Choose the external terminal where to run the console commands"
+msgstr ""
+"Válassza ki a külső terminált, ahol a konzolparancsokat futtatni szeretné"
+
+#: src/ui/settings.py:364
+msgid "Program memory"
+msgstr "Programmemória"
+
+#: src/ui/settings.py:364
+msgid "How long the program remembers the chat "
+msgstr "Meddig emlékszik a program a csevegésre "
+
+#: src/ui/settings.py:371
+msgid "Developer"
+msgstr "Fejlesztő"
+
+#: src/ui/settings.py:374 src/ui/stdout_monitor.py:31
+#: src/ui/stdout_monitor.py:41
+msgid "Program Output Monitor"
+msgstr "Programkimenet-figyelő"
+
+#: src/ui/settings.py:374
+msgid ""
+"Monitor the program output in real-time, useful for debugging and seeing "
+"downloads progress"
+msgstr ""
+"Figyelje a program kimenetét valós időben, ami hasznos hibakereséshez és a "
+"letöltések előrehaladásának nyomon követéséhez"
+
+#: src/ui/settings.py:375
+msgid "Open"
+msgstr "Megnyitás"
+
+#: src/ui/settings.py:380
+msgid "Delete pip path"
+msgstr "Pip útvonal törlése"
+
+#: src/ui/settings.py:380
+msgid "Remove the extra dependencies installed"
+msgstr "Az extra telepített függőségek eltávolítása"
+
+#: src/ui/settings.py:381 src/ui/settings.py:981 src/ui/explorer.py:411
+#: src/ui/explorer.py:547
+msgid "Delete"
+msgstr "Törlés"
+
+#: src/ui/settings.py:386
+msgid "Install pip module"
+msgstr ""
+
+#: src/ui/settings.py:386
+msgid "Manually install pip module"
+msgstr ""
+
+#: src/ui/settings.py:442
+msgid "tools"
+msgstr ""
+
+#: src/ui/settings.py:442
+msgid "tool"
+msgstr ""
+
+#: src/ui/settings.py:575
+msgid "MCP Servers"
+msgstr ""
+
+#: src/ui/settings.py:575
+msgid "Manage Model Context Protocol servers"
+msgstr ""
+
+#: src/ui/settings.py:579
+msgid "Servers"
+msgstr ""
+
+#: src/ui/settings.py:579
+msgid "List of configured MCP servers"
+msgstr ""
+
+#: src/ui/settings.py:586 src/ui/settings.py:732
+msgid "Add Server"
+msgstr ""
+
+#: src/ui/settings.py:586
+msgid "Add a new MCP server"
+msgstr ""
+
+#: src/ui/settings.py:593
+msgid "Server Type"
+msgstr ""
+
+#: src/ui/settings.py:593
+msgid "HTTP or local command (stdio)"
+msgstr ""
+
+#: src/ui/settings.py:607
+msgid "Title"
+msgstr ""
+
+#: src/ui/settings.py:607
+msgid "Display name for the server"
+msgstr ""
+
+#: src/ui/settings.py:609
+msgid "My MCP Server"
+msgstr ""
+
+#: src/ui/settings.py:617
+msgid "URL"
+msgstr ""
+
+#: src/ui/settings.py:617
+msgid "Server endpoint URL (required)"
+msgstr ""
+
+#: src/ui/settings.py:625
+msgid "Authentication"
+msgstr ""
+
+#: src/ui/settings.py:625
+msgid "Optional authentication settings"
+msgstr ""
+
+#: src/ui/settings.py:628
+#, fuzzy
+msgid "Bearer Token"
+msgstr "Max tokenek"
+
+#: src/ui/settings.py:628
+msgid "Authentication token"
+msgstr ""
+
+#: src/ui/settings.py:629 src/handlers/websearch/tavily.py:20
+msgid "Token"
+msgstr "Token"
+
+#: src/ui/settings.py:632
+msgid "Show/Hide token"
+msgstr ""
+
+#: src/ui/settings.py:638
+msgid "Client ID"
+msgstr ""
+
+#: src/ui/settings.py:638
+msgid "OAuth client identifier"
+msgstr ""
+
+#: src/ui/settings.py:639
+msgid "client-id"
+msgstr ""
+
+#: src/ui/settings.py:647
+#, fuzzy
+msgid "Advanced"
+msgstr "Haladó beállítások"
+
+#: src/ui/settings.py:647
+#, fuzzy
+msgid "Custom headers and advanced settings"
+msgstr "További haladó beállítások"
+
+#: src/ui/settings.py:650
+#, fuzzy
+msgid "Custom Headers"
+msgstr "Egyéni modell"
+
+#: src/ui/settings.py:650
+msgid "JSON format, e.g. {\"X-Api-Key\": \"value\"}"
+msgstr ""
+
+#: src/ui/settings.py:673
+#, fuzzy
+msgid "Command"
+msgstr "Egyéni parancs"
+
+#: src/ui/settings.py:673
+msgid "Executable path or command name"
+msgstr ""
+
+#: src/ui/settings.py:682
+msgid "Arguments"
+msgstr ""
+
+#: src/ui/settings.py:682
+msgid "Space-separated command arguments"
+msgstr ""
+
+#: src/ui/settings.py:691
+msgid "Environment Variables"
+msgstr ""
+
+#: src/ui/settings.py:691
+msgid "Optional environment variables"
+msgstr ""
+
+#: src/ui/settings.py:694
+msgid "Variables"
+msgstr ""
+
+#: src/ui/settings.py:694
+msgid "JSON format, e.g. {\"API_KEY\": \"value\"}"
+msgstr ""
+
+#: src/ui/settings.py:746 src/ui/settings.py:760 src/ui/settings.py:763
+#: src/ui/settings.py:779 src/ui/settings.py:789 src/ui/settings.py:803
+#: src/ui/settings.py:806 src/ui/settings.py:823
+msgid "Error"
+msgstr ""
+
+#: src/ui/settings.py:746
+msgid "Command is required for stdio servers"
+msgstr ""
+
+#: src/ui/settings.py:760
+msgid "Environment variables must be a JSON object"
+msgstr ""
+
+#: src/ui/settings.py:763
+msgid "Invalid JSON in environment variables: "
+msgstr ""
+
+#: src/ui/settings.py:779 src/ui/settings.py:823
+msgid "Failed to add MCP server"
+msgstr ""
+
+#: src/ui/settings.py:789
+msgid "URL is required for HTTP servers"
+msgstr ""
+
+#: src/ui/settings.py:803
+msgid "Custom headers must be a JSON object"
+msgstr ""
+
+#: src/ui/settings.py:806
+msgid "Invalid JSON in custom headers: "
+msgstr ""
+
+#: src/ui/settings.py:930
+msgid "Auto-run commands"
+msgstr "Parancsok automatikus futtatása"
+
+#: src/ui/settings.py:930
+msgid "Commands that the bot will write will automatically run"
+msgstr "A bot által írt parancsok automatikusan futnak"
+
+#: src/ui/settings.py:933
+msgid "Max number of commands"
+msgstr "Parancsok maximális száma"
+
+#: src/ui/settings.py:933
+msgid ""
+"Maximum number of commands that the bot will write after a single user "
+"request"
+msgstr ""
+"A parancsok maximális száma, amelyet a bot egyetlen felhasználói kérés után "
+"írni fog"
+
+#: src/ui/settings.py:963
+msgid "Browser"
+msgstr "Böngésző"
+
+#: src/ui/settings.py:963
+msgid "Settings for the browser"
+msgstr "Böngésző beállításai"
+
+#: src/ui/settings.py:968
+msgid "Use external browser"
+msgstr "Külső böngésző használata"
+
+#: src/ui/settings.py:968
+msgid "Use an external browser to open links instead of integrated one"
+msgstr "Külső böngésző használata a linkek megnyitásához az integrált helyett"
+
+#: src/ui/settings.py:975
+msgid "Persist browser session"
+msgstr "Böngésző munkamenet megtartása"
+
+#: src/ui/settings.py:975
+msgid ""
+"Persist browser session between restarts. Turning this off requires "
+"restarting the program"
+msgstr ""
+"Böngésző munkamenet megőrzése újraindítások között. Ennek kikapcsolása a "
+"program újraindítását igényli"
+
+#: src/ui/settings.py:980
+msgid "Delete browser data"
+msgstr "Böngészőadatok törlése"
+
+#: src/ui/settings.py:980
+msgid "Delete browser session and data"
+msgstr "Böngésző munkamenet és adatok törlése"
+
+#: src/ui/settings.py:987
+msgid "Initial browser page"
+msgstr "Kezdő böngészőoldal"
+
+#: src/ui/settings.py:987
+msgid "The page where the browser will start"
+msgstr "Az oldal, ahol a böngésző elindul"
+
+#: src/ui/settings.py:994
+msgid "Search string"
+msgstr "Keresési karakterlánc"
+
+#: src/ui/settings.py:994
+#, python-format
+msgid "The search string used in the browser, %s is replaced with the query"
+msgstr ""
+"A böngészőben használt keresési karakterlánc, a %s helyére a lekérdezés kerül"
+
+#: src/ui/settings.py:1015
+msgid "Document Sources (RAG)"
+msgstr "Dokumentumforrások (RAG)"
+
+#: src/ui/settings.py:1015
+msgid "Include content from your documents in the responses"
+msgstr "Dokumentumok tartalmának mellékelése a válaszokban"
+
+#: src/ui/settings.py:1016
+msgid "Document Analyzer"
+msgstr "Dokumentumelemző"
+
+#: src/ui/settings.py:1016
+msgid ""
+"The document analyzer uses multiple techniques to extract relevant "
+"information about your documents"
+msgstr ""
+"A dokumentumelemző több technikát is használ a releváns információk "
+"kinyerésére a dokumentumokból"
+
+#: src/ui/settings.py:1027
+msgid "Read documents if unsupported"
+msgstr "Dokumentumok olvasása, ha nem támogatott"
+
+#: src/ui/settings.py:1027
+msgid ""
+"If the LLM does not support reading documents, relevant information about "
+"documents sent in the chat will be given to the LLM using your Document "
+"Analyzer."
+msgstr ""
+"Ha az LLM nem támogatja a dokumentumok olvasását, a csevegésben küldött "
+"dokumentumokról releváns információk kerülnek az LLM-hez az Ön "
+"dokumentumelemzőjével."
+
+#: src/ui/settings.py:1031
+msgid "Maximum tokens for RAG"
+msgstr "Maximális tokenek RAG-hez"
+
+#: src/ui/settings.py:1031
+msgid ""
+"The maximum amount of tokens to be used for RAG. If the documents do not "
+"exceed this token count,\n"
+"dump all of them in the context"
+msgstr ""
+"A RAG-hez használható tokenek maximális száma. Ha a dokumentumok nem "
+"haladják meg ezt a tokenszámot,\n"
+"az összeset kiürítjük a kontextusba"
+
+#: src/ui/settings.py:1040
+msgid "Document Folder"
+msgstr "Dokumentummappa"
+
+#: src/ui/settings.py:1040
+msgid ""
+"Put the documents you want to query in your document folder. The document "
+"analyzer will find relevant information in them if this option is enabled"
+msgstr ""
+"Helyezze a lekérdezni kívánt dokumentumokat a dokumentum mappájába. A "
+"dokumentumelemző releváns információkat talál bennük, ha ez az opció "
+"engedélyezve van."
+
+#: src/ui/settings.py:1043
+msgid "Put all the documents you want to index in this folder"
+msgstr "Helyezze ebbe a mappába az összes indexelni kívánt dokumentumot"
+
+#: src/ui/settings.py:1053
+#, fuzzy
+msgid "Custom Document Folders"
+msgstr "Dokumentummappa"
+
+#: src/ui/settings.py:1053
+msgid "Add additional folders to index for document analysis"
+msgstr ""
+
+#: src/ui/settings.py:1057
+#, fuzzy
+msgid "Add Folder"
+msgstr "mappa"
+
+#: src/ui/settings.py:1084
+#, fuzzy
+msgid "Select Folder"
+msgstr "Profil kiválasztása"
+
+#: src/ui/settings.py:1088
+#, fuzzy
+msgid "_Cancel"
+msgstr "Mégse"
+
+#: src/ui/settings.py:1089
+msgid "_Add"
+msgstr ""
+
+#: src/ui/settings.py:1136
+#, fuzzy
+msgid "Custom Folder"
+msgstr "Egyéni modell"
+
+#: src/ui/settings.py:1169
+msgid "Silence threshold"
+msgstr "Csend küszöb"
+
+#: src/ui/settings.py:1169
+msgid ""
+"Silence threshold in seconds, percentage of the volume to be considered "
+"silence"
+msgstr ""
+"Csendküszöb másodpercekben, a hangerő százalékos aránya, amelyet csendnek "
+"kell tekinteni"
+
+#: src/ui/settings.py:1182
+msgid "Silence time"
+msgstr "Csend időtartama"
+
+#: src/ui/settings.py:1182
+msgid "Silence time in seconds before recording stops automatically"
+msgstr ""
+"Csend időtartama másodpercekben, mielőtt a felvétel automatikusan leáll"
+
+#: src/ui/settings.py:1801
+msgid "Not enough permissions"
+msgstr "Nincs elegendő engedély"
+
+#: src/ui/settings.py:1805
+#, fuzzy
+msgid ""
+"ZERONE AI does not have enough permissions to run commands on your system, "
+"please run the following command"
+msgstr ""
+"A Newelle-nek nincs elegendő engedélye parancsok futtatásához a rendszerén, "
+"kérjük, futtassa a következő parancsot"
+
+#: src/ui/settings.py:1806 src/ui/settings.py:1819
+msgid "Understood"
+msgstr "Értem"
+
+#: src/ui/settings.py:1818
+msgid "Pip path deleted"
+msgstr "Pip útvonal törölve"
+
+#: src/ui/settings.py:1818
+msgid ""
+"The pip path has been deleted, you can now reinstall the dependencies. This "
+"operation requires a restart of the application."
+msgstr ""
+"A pip útvonal törölve lett, most újra telepítheti a függőségeket. Ez a "
+"művelet az alkalmazás újraindítását igényli."
+
+#: src/ui/widgets/chat_history.py:226
+msgid " Stop"
+msgstr " Leállítás"
+
+#: src/ui/widgets/chat_history.py:240
+msgid " Clear"
+msgstr " Törlés"
+
+#: src/ui/widgets/chat_history.py:255
+msgid " Continue"
+msgstr " Folytatás"
+
+#: src/ui/widgets/chat_history.py:268
+msgid " Regenerate"
+msgstr " Újragenerálás"
+
+#: src/ui/widgets/chat_history.py:277
+msgid "Ask about a website"
+msgstr "Kérdezzen egy weboldalról"
+
+#: src/ui/widgets/chat_history.py:277
+msgid "Write #https://website.com in chat to ask information about a website"
+msgstr ""
+"Írja be a #https://website.com címet a csevegésbe, hogy információt kérjen "
+"egy weboldalról"
+
+#: src/ui/widgets/chat_history.py:278
+msgid "Check out our Extensions!"
+msgstr "Nézze meg bővítményeinket!"
+
+#: src/ui/widgets/chat_history.py:278
+msgid "We have a lot of extensions for different things. Check it out!"
+msgstr "Sok bővítményünk van különböző dolgokhoz. Nézze meg!"
+
+#: src/ui/widgets/chat_history.py:279
+msgid "Chat with documents!"
+msgstr "Csevegés dokumentumokkal!"
+
+#: src/ui/widgets/chat_history.py:279
+msgid ""
+"Add your documents to your documents folder and chat using the information "
+"contained in them!"
+msgstr ""
+"Adja hozzá dokumentumait a dokumentum mappájához, és csevegjen az azokban "
+"található információk felhasználásával!"
+
+#: src/ui/widgets/chat_history.py:280
+msgid "Surf the web!"
+msgstr "Böngésszen az interneten!"
+
+#: src/ui/widgets/chat_history.py:280
+msgid ""
+"Enable web search to allow the LLM to surf the web and provide up to date "
+"answers"
+msgstr ""
+"Engedélyezze a webes keresést, hogy az LLM böngészhessen a weben és "
+"naprakész válaszokat adjon"
+
+#: src/ui/widgets/chat_history.py:281
+msgid "Mini Window"
+msgstr "Mini ablak"
+
+#: src/ui/widgets/chat_history.py:281
+msgid "Ask questions on the fly using the mini window mode"
+msgstr "Tegyen fel kérdéseket menet közben a mini ablak móddal"
+
+#: src/ui/widgets/chat_history.py:282
+msgid "Text to Speech"
+msgstr "Szövegfelolvasó"
+
+#: src/ui/widgets/chat_history.py:282
+#, fuzzy
+msgid "ZERONE AI supports text-to-speech! Enable it in the settings"
+msgstr "A Newelle támogatja a szövegfelolvasást! Engedélyezze a beállításokban"
+
+#: src/ui/widgets/chat_history.py:283
+msgid "Keyboard Shortcuts"
+msgstr "Billentyűparancsok"
+
+#: src/ui/widgets/chat_history.py:283
+#, fuzzy
+msgid "Control ZERONE AI using Keyboard Shortcuts"
+msgstr "A Newelle vezérlése billentyűparancsokkal"
+
+#: src/ui/widgets/chat_history.py:284
+msgid "Prompt Control"
+msgstr "Üzenet vezérlés"
+
+#: src/ui/widgets/chat_history.py:284
+#, fuzzy
+msgid ""
+"ZERONE AI gives you 100% prompt control. Tune your prompts for your use."
+msgstr ""
+"A Newelle 100%-os üzenetvezérlést biztosít. Hangolja üzeneteit a "
+"felhasználásához."
+
+#: src/ui/widgets/chat_history.py:285
+msgid "Thread Editing"
+msgstr "Szál szerkesztése"
+
+#: src/ui/widgets/chat_history.py:285
+#, fuzzy
+msgid "Check the programs and processes you run from ZERONE AI"
+msgstr "Ellenőrizze a Newelle-ből futtatott programokat és folyamatokat"
+
+#: src/ui/widgets/chat_history.py:286
+msgid "Programmable Prompts"
+msgstr "Programozható üzenetek"
+
+#: src/ui/widgets/chat_history.py:286
+#, fuzzy
+msgid ""
+"You can add dynamic prompts to ZERONE AI, with conditions and probabilities"
+msgstr ""
+"Dinamikus üzeneteket adhat hozzá a Newelle-hez, feltételekkel és "
+"valószínűségekkel"
+
+#: src/ui/widgets/chat_history.py:287
+#, fuzzy
+msgid "Use any avatar model"
+msgstr "Egyéni modell használata"
+
+#: src/ui/widgets/chat_history.py:287
+msgid "Use any Live2D or LivePNG model"
+msgstr ""
+
+#: src/ui/widgets/chat_history.py:294 src/ui/widgets/chat_tab.py:290
+#: src/ui/widgets/chat_tab.py:291 src/window.py:245
+msgid "New Chat"
+msgstr "Új csevegés"
+
+#: src/ui/widgets/chat_history.py:557
+msgid ""
+"The neural network has access to your computer and any data in this chat and "
+"can run commands, be careful, we are not responsible for the neural network. "
+"Do not share any sensitive information."
+msgstr ""
+"A neuronhálózat hozzáfér a számítógépéhez és az ebben a csevegésben lévő "
+"bármely adathoz, és parancsokat futtathat, legyen óvatos, nem vagyunk "
+"felelősek a neuronhálózatért. Ne osszon meg semmilyen érzékeny információt."
+
+#: src/ui/widgets/chat_history.py:586
+msgid ""
+"The neural network has access to any data in this chat, be careful, we are "
+"not responsible for the neural network. Do not share any sensitive "
+"information."
+msgstr ""
+"A neuronhálózat hozzáfér a csevegésben lévő bármely adathoz, legyen óvatos, "
+"nem vagyunk felelősek a neuronhálózatért. Ne osszon meg semmilyen érzékeny "
+"információt."
+
+#: src/ui/widgets/chat_history.py:811
+#, fuzzy
+msgid "Prompt Details"
+msgstr "Üzenetek"
+
+#: src/ui/widgets/chat_history.py:829
+msgid "Statistics"
+msgstr ""
+
+#: src/ui/widgets/chat_history.py:832
+#, fuzzy
+msgid "Input Tokens"
+msgstr "Max tokenek"
+
+#: src/ui/widgets/chat_history.py:835
+#, fuzzy
+msgid "Output Tokens"
+msgstr "Max tokenek"
+
+#: src/ui/widgets/chat_history.py:838
+msgid "Generation Speed"
+msgstr ""
+
+#: src/ui/widgets/chat_history.py:842
+#, fuzzy
+msgid "Prompt"
+msgstr "Üzenetek"
+
+#: src/ui/widgets/chat_history.py:904
+msgid "You can't edit a message while the program is running."
+msgstr "Nem szerkeszthet üzenetet, amíg a program fut."
+
+#: src/ui/widgets/chat_history.py:1254 src/ui/explorer.py:385
+msgid "File not found"
+msgstr "Fájl nem található"
+
+#: src/ui/widgets/chat_tab.py:168
+msgid "Send a message..."
+msgstr "Üzenet küldése..."
+
+#: src/ui/widgets/chat_tab.py:209 src/window.py:760
+msgid "Local Documents"
+msgstr "Helyi dokumentumok"
+
+#: src/ui/widgets/chat_tab.py:211 src/constants.py:629 src/window.py:762
+msgid "TTS"
+msgstr "TTS"
+
+#: src/ui/widgets/chat_tab.py:212 src/window.py:763
+msgid "Web search"
+msgstr "Webes keresés"
+
+#: src/ui/widgets/chat_tab.py:217
+#, fuzzy
+msgid "Virtualization"
+msgstr "Parancs virtualizálás"
+
+#: src/ui/widgets/chat_tab.py:410
+msgid "The message cannot be sent until the program is finished"
+msgstr "Az üzenet nem küldhető el, amíg a program be nem fejeződik"
+
+#: src/ui/widgets/chat_tab.py:736
+msgid "Chat is cleared"
+msgstr "A csevegés törölve"
+
+#: src/ui/widgets/chat_tab.py:757
+msgid "The message generation was stopped"
+msgstr ""
+
+#: src/ui/widgets/chat_tab.py:767
+msgid "You can no longer continue the message."
+msgstr "Nem folytathatja az üzenetet."
+
+#: src/ui/widgets/chat_tab.py:790
+msgid "You can no longer regenerate the message."
+msgstr "Nem generálhatja újra az üzenetet."
+
+#: src/ui/widgets/message.py:579
+#, fuzzy
+msgid "Stopped"
+msgstr " Leállítás"
+
+#: src/ui/widgets/thinking.py:26
+msgid "Thoughts"
+msgstr "Gondolatok"
+
+#: src/ui/widgets/thinking.py:27 src/ui/widgets/thinking.py:137
+msgid "Expand to see details"
+msgstr "Kibontás a részletek megtekintéséhez"
+
+#: src/ui/widgets/thinking.py:123
+msgid "Thinking..."
+msgstr "Gondolkodás..."
+
+#: src/ui/widgets/thinking.py:124
+msgid "The LLM is thinking... Expand to see thought process"
+msgstr ""
+"Az LLM gondolkodik... Bontsa ki a gondolkodási folyamat megtekintéséhez"
+
+#: src/ui/widgets/thinking.py:139
+msgid "No thought process recorded"
+msgstr "Nincs rögzített gondolkodási folyamat"
+
+#: src/ui/widgets/profilerow.py:26
+msgid "Select profile"
+msgstr "Profil kiválasztása"
+
+#: src/ui/widgets/profilerow.py:43 src/ui/profile.py:79
+msgid "Edit Profile"
+msgstr "Profil szerkesztése"
+
+#: src/ui/widgets/profilerow.py:53
+msgid "Delete Profile"
+msgstr "Profil törlése"
+
+#: src/ui/widgets/tipscarousel.py:41
+msgid "ZERONE AI Tips"
+msgstr ""
+
+#: src/ui/widgets/chatrow.py:106
+#, fuzzy
+msgid "Generate name"
+msgstr "Általános"
+
+#: src/ui/widgets/chatrow.py:116
+#, fuzzy
+msgid "Edit name"
+msgstr "Fájl neve:"
+
+#: src/ui/widgets/chatrow.py:127
+msgid "Duplicate chat"
+msgstr ""
+
+#: src/ui/widgets/chatrow.py:137
+#, fuzzy
+msgid "Delete chat"
+msgstr "Törlés"
+
+#: src/ui/widgets/chatrow.py:152
+msgid "Cannot delete current chat"
+msgstr ""
+
+#: src/ui/presentation.py:93
+#, fuzzy
+msgid "Welcome to ZERONE AI!"
+msgstr "Üdvözöljük a Newelle-ben"
+
+#: src/ui/presentation.py:94
+#, fuzzy
+msgid "Your ultimate AI Waifu assistant."
+msgstr "Az Ön kiváló virtuális asszisztense."
+
+#: src/ui/presentation.py:98
+msgid "Github Page"
+msgstr "Github oldal"
+
+#: src/ui/presentation.py:105
+msgid "Choose your favourite AI Language Model"
+msgstr "Válassza ki kedvenc AI nyelvi modelljét"
+
+#: src/ui/presentation.py:106
+#, fuzzy
+msgid ""
+"ZERONE AI can be used with mutiple models and providers!\n"
+"<b>Note: It is strongly suggested to read the Guide to LLM page</b>"
+msgstr ""
+"A Newelle több modellel és szolgáltatóval is használható!\n"
+"<b>Megjegyzés: Erősen ajánlott elolvasni az LLM útmutató oldalt</b>"
+
+#: src/ui/presentation.py:110
+msgid "Guide to LLM"
+msgstr "LLM útmutató"
+
+#: src/ui/presentation.py:117
+msgid "Chat with your documents"
+msgstr "Csevegés dokumentumokkal"
+
+#: src/ui/presentation.py:118
+#, fuzzy
+msgid ""
+"ZERONE AI can retrieve relevant information from documents you send in the "
+"chat or from your own files! Information relevant to your query will be sent "
+"to the LLM."
+msgstr ""
+"A Newelle képes releváns információkat lekérdezni a csevegésben küldött "
+"dokumentumokból vagy a saját fájljaiból! A lekérdezéséhez kapcsolódó "
+"információk elküldésre kerülnek az LLM-nek."
+
+#: src/ui/presentation.py:124
+#, fuzzy
+msgid "Choose your favourite Voice configuration"
+msgstr "Válassza ki kedvenc AI nyelvi modelljét"
+
+#: src/ui/presentation.py:125
+msgid ""
+"You can speak to ZERONE AI! Use any TTS/STT provider in any language, with "
+"translation support!"
+msgstr ""
+
+#: src/ui/presentation.py:131 src/ui/extension.py:18 src/constants.py:664
+#: src/window.py:153
+msgid "Extensions"
+msgstr "Bővítmények"
+
+#: src/ui/presentation.py:132
+#, fuzzy
+msgid ""
+"You can extend ZERONE AI's functionalities using extensions! They are easy "
+"to make and to install!"
+msgstr "Kibővítheti a Newelle funkcionalitását bővítményekkel!"
+
+#: src/ui/presentation.py:136
+msgid "Download extensions"
+msgstr "Bővítmények letöltése"
+
+#: src/ui/presentation.py:143
+msgid "Pay attention!"
+msgstr ""
+
+#: src/ui/presentation.py:144
+msgid ""
+"ZERONE AI can run commands on your system! By enabling command "
+"virtualization, you will only run commands inside the flatpak environment, "
+"avoiding to create damages to your system.\n"
+"\n"
+" <b>Pay attention on what you run! Commands generated might harm your system!"
+"</b>"
+msgstr ""
+
+#: src/ui/presentation.py:152
+msgid "Permission Error"
+msgstr "Engedélyhiba"
+
+#: src/ui/presentation.py:153
+#, fuzzy
+msgid ""
+"zeroneai does not have enough permissions to run commands on your system."
+msgstr ""
+"A Newelle-nek nincs elegendő engedélye parancsok futtatásához a rendszerén."
+
+#: src/ui/presentation.py:164
+msgid "Begin using the app"
+msgstr "Az alkalmazás használatának megkezdése"
+
+#: src/ui/presentation.py:169
+msgid "Start chatting"
+msgstr "Csevegés indítása"
+
+#: src/ui/extension.py:52
+msgid "Installed Extensions"
+msgstr "Telepített bővítmények"
+
+#: src/ui/extension.py:88
+msgid "User guide to Extensions"
+msgstr "Felhasználói útmutató a bővítményekhez"
+
+#: src/ui/extension.py:91
+msgid "Download new Extensions"
+msgstr "Új bővítmények letöltése"
+
+#: src/ui/extension.py:94
+msgid "Install extension from file..."
+msgstr "Bővítmény telepítése fájlból..."
+
+#: src/ui/stdout_monitor.py:48
+msgid "Clear output"
+msgstr "Kimenet törlése"
+
+#: src/ui/stdout_monitor.py:61
+msgid "Start/Stop monitoring"
+msgstr "Figyelés indítása/leállítása"
+
+#: src/ui/stdout_monitor.py:109 src/ui/stdout_monitor.py:182
+#: src/ui/stdout_monitor.py:191 src/window.py:2627
+msgid "Monitoring: Active"
+msgstr "Figyelés: Aktív"
+
+#: src/ui/stdout_monitor.py:109 src/ui/stdout_monitor.py:208
+msgid "Monitoring: Stopped"
+msgstr "Figyelés: Leállítva"
+
+#: src/ui/stdout_monitor.py:116 src/ui/stdout_monitor.py:252
+msgid "Lines: {}"
+msgstr "Sorok: {}"
+
+#: src/ui/stdout_monitor.py:267
+msgid "Lines: 0"
+msgstr "Sorok: 0"
+
+#: src/ui/shortcuts.py:6
+msgid "Help"
+msgstr "Súgó"
+
+#: src/ui/shortcuts.py:12
+msgid "Shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: src/ui/shortcuts.py:13
+msgid "Reload chat"
+msgstr "Csevegés újratöltése"
+
+#: src/ui/shortcuts.py:14
+msgid "Reload folder"
+msgstr "Mappa újratöltése"
+
+#: src/ui/shortcuts.py:15
+msgid "New tab"
+msgstr "Új lap"
+
+#: src/ui/shortcuts.py:16
+msgid "Paste Image"
+msgstr "Kép beillesztése"
+
+#: src/ui/shortcuts.py:17
+msgid "Focus message box"
+msgstr "Üzenetdoboz fókuszálása"
+
+#: src/ui/shortcuts.py:18
+msgid "Start/stop recording"
+msgstr "Felvétel indítása/leállítása"
+
+#: src/ui/shortcuts.py:19
+#, fuzzy
+msgid "Stop generation"
+msgstr "Stílus túlzása"
+
+#: src/ui/shortcuts.py:20
+msgid "Save"
+msgstr "Mentés"
+
+#: src/ui/shortcuts.py:21
+msgid "Stop TTS"
+msgstr "TTS leállítása"
+
+#: src/ui/shortcuts.py:22
+msgid "Zoom in"
+msgstr "Nagyítás"
+
+#: src/ui/shortcuts.py:23
+msgid "Zoom out"
+msgstr "Kicsinyítés"
+
+#: src/ui/thread_editing.py:6 src/window.py:152
+msgid "Thread editing"
+msgstr "Szál szerkesztése"
+
+#: src/ui/thread_editing.py:36
+msgid "No threads are running"
+msgstr "Nem fut szál"
+
+#: src/ui/thread_editing.py:42
+msgid "Thread number: "
+msgstr "Szál száma: "
+
+#: src/ui/explorer.py:236
+msgid "Folder is Empty"
+msgstr "A mappa üres"
+
+#: src/ui/explorer.py:400
+msgid "Open in new tab"
+msgstr "Megnyitás új lapon"
+
+#: src/ui/explorer.py:402
+msgid "Open in integrated editor"
+msgstr "Megnyitás beépített szerkesztőben"
+
+#: src/ui/explorer.py:405 src/ui/explorer.py:634
+msgid "Open in file manager"
+msgstr "Megnyitás fájlkezelőben"
+
+#: src/ui/explorer.py:408 src/ui/explorer.py:496
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: src/ui/explorer.py:414
+msgid "Copy full path"
+msgstr "Teljes útvonal másolása"
+
+#: src/ui/explorer.py:465 src/ui/explorer.py:702
+msgid "Failed to open file manager"
+msgstr "Nem sikerült megnyitni a fájlkezelőt"
+
+#: src/ui/explorer.py:481
+msgid "New name:"
+msgstr "Új név:"
+
+#: src/ui/explorer.py:493 src/ui/explorer.py:546 src/ui/explorer.py:734
+#: src/main.py:270
+msgid "Cancel"
+msgstr "Mégse"
+
+#: src/ui/explorer.py:516
+msgid "Renamed successfully"
+msgstr "Sikeresen átnevezve"
+
+#: src/ui/explorer.py:521
+msgid "Failed to rename: {}"
+msgstr "Sikertelen átnevezés: {}"
+
+#: src/ui/explorer.py:542
+msgid "Delete File?"
+msgstr "Fájl törlése?"
+
+#: src/ui/explorer.py:544
+msgid "Are you sure you want to delete \"{}\"?"
+msgstr "Biztosan törölni szeretné a „{}” fájlt?"
+
+#: src/ui/explorer.py:565
+msgid "Deleted successfully"
+msgstr "Sikeresen törölve"
+
+#: src/ui/explorer.py:570
+msgid "Failed to delete: {}"
+msgstr "Sikertelen törlés: {}"
+
+#: src/ui/explorer.py:583
+msgid "Path copied to clipboard"
+msgstr "Az útvonal másolva a vágólapra"
+
+#: src/ui/explorer.py:587
+msgid "Failed to copy path"
+msgstr "Nem sikerült másolni az útvonalat"
+
+#: src/ui/explorer.py:625
+msgid "Create new folder"
+msgstr "Új mappa létrehozása"
+
+#: src/ui/explorer.py:628
+msgid "Create new file"
+msgstr "Új fájl létrehozása"
+
+#: src/ui/explorer.py:631
+msgid "Open Terminal Here"
+msgstr "Terminál megnyitása itt"
+
+#: src/ui/explorer.py:685
+msgid "Create New Folder"
+msgstr "Új mappa létrehozása"
+
+#: src/ui/explorer.py:685
+msgid "Folder name:"
+msgstr "Mappa neve:"
+
+#: src/ui/explorer.py:689
+msgid "Create New File"
+msgstr "Új fájl létrehozása"
+
+#: src/ui/explorer.py:689
+msgid "File name:"
+msgstr "Fájl neve:"
+
+#: src/ui/explorer.py:737 src/ui/profile.py:109
+msgid "Create"
+msgstr "Létrehozás"
+
+#: src/ui/explorer.py:758
+msgid "Folder created successfully"
+msgstr "Mappa sikeresen létrehozva"
+
+#: src/ui/explorer.py:765
+msgid "File created successfully"
+msgstr "Fájl sikeresen létrehozva"
+
+#: src/ui/explorer.py:770
+msgid "A file or folder with that name already exists"
+msgstr "Már létezik fájl vagy mappa ezzel a névvel"
+
+#: src/ui/explorer.py:773
+msgid "folder"
+msgstr "mappa"
+
+#: src/ui/explorer.py:773
+msgid "file"
+msgstr "fájl"
+
+#: src/ui/explorer.py:775
+msgid "Failed to create {}: {}"
+msgstr "Sikertelen létrehozás {}: {}"
+
+#: src/ui/profile.py:33 src/window.py:154
+msgid "Settings"
+msgstr "Beállítások"
+
+#: src/ui/profile.py:53
+msgid "Profile Name"
+msgstr "Profil neve"
+
+#: src/ui/profile.py:58
+msgid "Copied Settings"
+msgstr "Másolt beállítások"
+
+#: src/ui/profile.py:58
+msgid "Settings that will be copied to the new profile"
+msgstr "Beállítások, amelyek az új profilba másolódnak"
+
+#: src/ui/profile.py:70
+msgid "Create Profile"
+msgstr "Profil létrehozása"
+
+#: src/ui/profile.py:72 src/ui/profile.py:74 src/ui/profile.py:129
+msgid "Import Profile"
+msgstr "Profil importálása"
+
+#: src/ui/profile.py:84 src/ui/profile.py:99 src/ui/profile.py:123
+msgid "Export Profile"
+msgstr "Profil exportálása"
+
+#: src/ui/profile.py:87
+msgid "Export Passwords"
+msgstr "Jelszavak exportálása"
+
+#: src/ui/profile.py:87
+msgid "Also export password-like fields"
+msgstr "Jelszószerű mezők exportálása is"
+
+#: src/ui/profile.py:89
+msgid "Export Propic"
+msgstr "Profilkép exportálása"
+
+#: src/ui/profile.py:89
+msgid "Also export the profile picture"
+msgstr "A profilkép exportálása is"
+
+#: src/ui/profile.py:109
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: src/ui/profile.py:116
+msgid "The settings of the current profile will be copied into the new one"
+msgstr "Az aktuális profil beállításai átmásolódnak az újba"
+
+#: src/ui/profile.py:122 src/ui/profile.py:128
+#, fuzzy
+msgid "ZERONE AI Profiles"
+msgstr "Profil szerkesztése"
+
+#: src/ui/profile.py:123
+msgid "Export"
+msgstr "Exportálás"
+
+#: src/ui/profile.py:129
+msgid "Import"
+msgstr "Importálás"
+
+#: src/ui/profile.py:197
+msgid "Set profile picture"
+msgstr "Profilkép beállítása"
+
+#: src/controller.py:260
+msgid "Chat "
+msgstr "Csevegés "
+
+#: src/controller.py:591
+msgid "Invalid export format: missing required fields"
+msgstr ""
+
+#: src/controller.py:601
+msgid "Unknown export type"
+msgstr ""
+
+#: src/controller.py:630
+#, fuzzy
+msgid "Imported 1 chat successfully"
+msgstr "Mappa sikeresen létrehozva"
+
+#: src/controller.py:632
+#, python-brace-format
+msgid "Error importing chat: {0}"
+msgstr ""
+
+#: src/controller.py:678
+#, python-brace-format
+msgid "Imported {0} chat(s)"
+msgstr ""
+
+#: src/controller.py:680
+#, python-brace-format
+msgid " (skipped {0})"
+msgstr ""
+
+#: src/controller.py:684
+#, python-brace-format
+msgid "Error importing chats: {0}"
+msgstr ""
+
+#: src/main.py:266
+msgid "Terminal threads are still running in the background"
+msgstr "A terminálszálak még mindig futnak a háttérben"
+
+#: src/main.py:267
+msgid "When you close the window, they will be automatically terminated"
+msgstr "Az ablak bezárásakor automatikusan leállnak"
+
+#: src/main.py:271
+msgid "Close"
+msgstr "Bezárás"
+
+#: src/main.py:345
+msgid "Chat is rebooted"
+msgstr "A csevegés újraindult"
+
+#: src/main.py:350
+msgid "Folder is rebooted"
+msgstr "A mappa újraindult"
+
+#: src/main.py:355
+msgid "Chat is created"
+msgstr "A csevegés létrejött"
+
+#: src/utility/util.py:189 src/handlers/llm/newelle_handler.py:27
+#: src/handlers/llm/custom_handler.py:20 src/handlers/llm/gemini_handler.py:119
+msgid "Message Streaming"
+msgstr "Üzenetfolyam"
+
+#: src/utility/util.py:190 src/handlers/llm/newelle_handler.py:28
+#: src/handlers/llm/custom_handler.py:20 src/handlers/llm/gemini_handler.py:120
+msgid "Gradually stream message output"
+msgstr "Fokozatosan streameli az üzenetkimenetet"
+
+#: src/handlers/avatar/livepng_handler.py:23
+#, fuzzy
+msgid "LivePNG Model"
+msgstr " Modell"
+
+#: src/handlers/avatar/livepng_handler.py:24
+#, fuzzy
+msgid "LivePNG Model to use"
+msgstr "Használandó modell"
+
+#: src/handlers/avatar/livepng_handler.py:34
+#: src/handlers/avatar/live2d_handler.py:75
+#: src/handlers/avatar/vrm_handler.py:76
+msgid "Lipsync Framerate"
+msgstr ""
+
+#: src/handlers/avatar/livepng_handler.py:35
+#: src/handlers/avatar/live2d_handler.py:76
+#: src/handlers/avatar/vrm_handler.py:77
+msgid "Maximum amount of frames to generate for lipsync"
+msgstr ""
+
+#: src/handlers/avatar/livepng_handler.py:44
+msgid "LivePNG model style"
+msgstr ""
+
+#: src/handlers/avatar/livepng_handler.py:45
+msgid "Choose the style of the model for the specified one"
+msgstr ""
+
+#: src/handlers/avatar/live2d_handler.py:64
+#, fuzzy
+msgid "Live2D Model"
+msgstr " Modell"
+
+#: src/handlers/avatar/live2d_handler.py:65
+#, fuzzy
+msgid "Live2D Model to use"
+msgstr "Használandó modell"
+
+#: src/handlers/avatar/live2d_handler.py:85
+#: src/handlers/avatar/vrm_handler.py:86
+msgid "Background Color"
+msgstr ""
+
+#: src/handlers/avatar/live2d_handler.py:86
+#: src/handlers/avatar/vrm_handler.py:87
+msgid "Background color of the avatar"
+msgstr ""
+
+#: src/handlers/avatar/live2d_handler.py:92
+#, fuzzy
+msgid "Zoom Model"
+msgstr " Modell"
+
+#: src/handlers/avatar/live2d_handler.py:93
+#, fuzzy
+msgid "Zoom the Live2D model"
+msgstr "A Whisper modell neve"
+
+#: src/handlers/avatar/vrm_handler.py:65
+#, fuzzy
+msgid "VRM Model"
+msgstr " Modell"
+
+#: src/handlers/avatar/vrm_handler.py:66
+#, fuzzy
+msgid "VRM Model to use"
+msgstr "Használandó modell"
+
+#: src/handlers/avatar/vrm_handler.py:93
+msgid "Light Color"
+msgstr ""
+
+#: src/handlers/avatar/vrm_handler.py:94
+msgid "Light color"
+msgstr ""
+
+#: src/handlers/avatar/vrm_handler.py:98
+msgid "Animations"
+msgstr ""
+
+#: src/handlers/avatar/vrm_handler.py:98
+#, fuzzy
+msgid "Put all the available animations in this folder"
+msgstr "Helyezze ebbe a mappába az összes indexelni kívánt dokumentumot"
+
+#: src/handlers/tts/custom_openai_tts.py:17
+msgid "Endpoint"
+msgstr "Végpont"
+
+#: src/handlers/tts/custom_openai_tts.py:17
+msgid "Custom endpoint of the service to use"
+msgstr "A használandó szolgáltatás egyéni végpontja"
+
+#: src/handlers/tts/custom_openai_tts.py:18
+#: src/handlers/tts/openai_tts_handler.py:18
+#: src/handlers/tts/groq_tts_handler.py:32
+#: src/handlers/tts/elevenlabs_handler.py:10
+#: src/handlers/embeddings/openai_handler.py:35
+#: src/handlers/stt/groqsr_handler.py:13
+#: src/handlers/stt/googlesr_handler.py:15
+#: src/handlers/stt/openaisr_handler.py:17 src/handlers/stt/witai_handler.py:13
+#: src/handlers/llm/openai_handler.py:86 src/handlers/llm/claude_handler.py:84
+msgid "API Key"
+msgstr "API kulcs"
+
+#: src/handlers/tts/custom_openai_tts.py:18
+#: src/handlers/tts/openai_tts_handler.py:18
+#: src/handlers/tts/groq_tts_handler.py:32
+#: src/handlers/llm/claude_handler.py:84
+msgid "The API key to use"
+msgstr "A használni kívánt API kulcs"
+
+#: src/handlers/tts/custom_openai_tts.py:19
+#: src/handlers/tts/openai_tts_handler.py:19
+#: src/handlers/tts/groq_tts_handler.py:33
+msgid "The voice to use"
+msgstr "A használandó hang"
+
+#: src/handlers/tts/custom_openai_tts.py:20
+#: src/handlers/tts/openai_tts_handler.py:20
+#: src/handlers/tts/groq_tts_handler.py:34
+#: src/handlers/tts/elevenlabs_handler.py:25
+#: src/handlers/embeddings/openai_handler.py:44
+#: src/handlers/stt/whispercpp_handler.py:40
+#: src/handlers/stt/whisper_handler.py:15 src/handlers/llm/g4f_handler.py:44
+#: src/handlers/llm/openai_handler.py:98 src/handlers/llm/claude_handler.py:89
+#: src/handlers/llm/claude_handler.py:93 src/handlers/llm/gemini_handler.py:97
+msgid "Model"
+msgstr "Modell"
+
+#: src/handlers/tts/custom_openai_tts.py:20
+#: src/handlers/tts/openai_tts_handler.py:20
+#: src/handlers/tts/groq_tts_handler.py:34
+#: src/handlers/llm/claude_handler.py:89 src/handlers/llm/claude_handler.py:93
+msgid "The model to use"
+msgstr "A használni kívánt modell"
+
+#: src/handlers/tts/custom_openai_tts.py:21
+#: src/handlers/tts/openai_tts_handler.py:21
+msgid "Instructions"
+msgstr "Utasítások"
+
+#: src/handlers/tts/custom_openai_tts.py:21
+#: src/handlers/tts/openai_tts_handler.py:21
+msgid ""
+"Instructions for the voice generation. Leave it blank to avoid this field"
+msgstr ""
+"Utasítások a hanggeneráláshoz. Hagyja üresen, hogy elkerülje ezt a mezőt"
+
+#: src/handlers/tts/custom_handler.py:18 src/handlers/stt/custom_handler.py:14
+#: src/handlers/translator/customtr_handler.py:18 src/translator.py:67
+msgid "Command to execute"
+msgstr "Futtatandó parancs"
+
+#: src/handlers/tts/custom_handler.py:18
+#, python-brace-format
+msgid "{0} will be replaced with the file fullpath, {1} with the text"
+msgstr "{0} helyére a fájl teljes elérési útja, {1} helyére a szöveg kerül."
+
+#: src/handlers/tts/tts.py:34
+msgid "Choose the preferred voice"
+msgstr "Válassza ki a kívánt hangot"
+
+#: src/handlers/tts/elevenlabs_handler.py:11
+msgid "API Key for ElevenLabs"
+msgstr "API kulcs az ElevenLabs-hez"
+
+#: src/handlers/tts/elevenlabs_handler.py:19
+msgid "Voice ID to use"
+msgstr "Használandó hangazonosító"
+
+#: src/handlers/tts/elevenlabs_handler.py:26
+msgid "Name of the model to use"
+msgstr "A használandó modell neve"
+
+#: src/handlers/tts/elevenlabs_handler.py:33
+msgid "Stability"
+msgstr "Stabilitás"
+
+#: src/handlers/tts/elevenlabs_handler.py:34
+msgid "stability of the voice"
+msgstr "A hang stabilitása"
+
+#: src/handlers/tts/elevenlabs_handler.py:43
+msgid "Similarity boost"
+msgstr "Hasonlóság növelése"
+
+#: src/handlers/tts/elevenlabs_handler.py:44
+msgid "Boosts overall voice clarity and speaker similarity"
+msgstr "Növeli az általános hangtisztaságot és a beszéd hasonlóságát"
+
+#: src/handlers/tts/elevenlabs_handler.py:53
+msgid "Style exaggeration"
+msgstr "Stílus túlzása"
+
+#: src/handlers/tts/elevenlabs_handler.py:54
+msgid ""
+"High values are reccomended if the style of the speech must be exaggerated"
+msgstr "Magas értékek javasoltak, ha a beszéd stílusát túlzottá kell tenni"
+
+#: src/handlers/websearch/tavily.py:20
+msgid "Tavily API key"
+msgstr "Tavily API kulcs"
+
+#: src/handlers/websearch/tavily.py:21
+#: src/handlers/websearch/duckduckgo_handler.py:28
+msgid "Max Results"
+msgstr "Max találatok"
+
+#: src/handlers/websearch/tavily.py:21
+#: src/handlers/websearch/duckduckgo_handler.py:28
+msgid "Number of results to consider"
+msgstr "Figyelembe veendő találatok száma"
+
+#: src/handlers/websearch/tavily.py:22
+msgid "The depth of the search"
+msgstr "A keresés mélysége"
+
+#: src/handlers/websearch/tavily.py:22
+msgid ""
+"The depth of the search. Advanced search is tailored to retrieve the most "
+"relevant sources and content snippets for your query, while basic search "
+"provides generic content snippets from each source. A basic search costs 1 "
+"API Credit, while an advanced search costs 2 API Credits."
+msgstr ""
+"A keresés mélysége. Az „Advanced” (haladó) keresés a legrelevánsabb "
+"forrásokat és tartalomrészleteket célozza meg a lekérdezéséhez, míg az "
+"„Basic” (alap) keresés általános tartalomrészleteket biztosít minden "
+"forrásból. Egy alap keresés 1 API kreditbe, míg egy haladó keresés 2 API "
+"kreditbe kerül."
+
+#: src/handlers/websearch/tavily.py:23
+msgid "The category of the search"
+msgstr "A keresés kategóriája"
+
+#: src/handlers/websearch/tavily.py:23
+msgid ""
+"The category of the search. News is useful for retrieving real-time updates, "
+"particularly about politics, sports, and major current events covered by "
+"mainstream media sources. General is for broader, more general-purpose "
+"searches that may include a wide range of sources."
+msgstr ""
+"A keresés kategóriája. A „Hírek” hasznos a valós idejű frissítések "
+"lekérdezéséhez, különösen a politikáról, sportról és a mainstream média "
+"által tárgyalt nagyobb aktuális eseményekről. Az „Általános” szélesebb, "
+"általánosabb célú keresésekhez használható, amelyek sokféle forrást "
+"tartalmazhatnak."
+
+#: src/handlers/websearch/tavily.py:24
+msgid "Chunks per source"
+msgstr "Szeletek forrásonként"
+
+#: src/handlers/websearch/tavily.py:24
+msgid ""
+"The number of content chunks to retrieve from each source. Each chunk's "
+"length is maximum 500 characters. Available only when search depth is "
+"advanced."
+msgstr ""
+"A forrásonként lekérdezhető tartalomszeletek száma. Minden szelet maximális "
+"hossza 500 karakter. Csak akkor érhető el, ha a keresési mélység „haladó”."
+
+#: src/handlers/websearch/tavily.py:25
+msgid "Number of days back from the current date to include"
+msgstr "Hány nappal visszamenőleg vegyen figyelembe az aktuális dátumtól"
+
+#: src/handlers/websearch/tavily.py:25
+msgid "Available only if topic is news."
+msgstr "Csak akkor érhető el, ha a téma „hírek”."
+
+#: src/handlers/websearch/tavily.py:26
+msgid "Include answer"
+msgstr "Válasz mellékelése"
+
+#: src/handlers/websearch/tavily.py:26
+msgid ""
+"Include an LLM-generated answer to the provided query. Basic search returns "
+"a quick answer. Advanced returns a more detailed answer."
+msgstr ""
+"Mellékeljen egy LLM által generált választ a megadott lekérdezésre. Az alap "
+"keresés gyors választ ad. A haladó keresés részletesebb választ ad."
+
+#: src/handlers/websearch/tavily.py:27
+msgid "Include raw content"
+msgstr "Nyers tartalom mellékelése"
+
+#: src/handlers/websearch/tavily.py:27
+msgid "Include the cleaned and parsed HTML content of each search result."
+msgstr ""
+"Tartalmazza az egyes keresési eredmények megtisztított és elemzett HTML "
+"tartalmát."
+
+#: src/handlers/websearch/tavily.py:28
+msgid "Include images"
+msgstr "Képek mellékelése"
+
+#: src/handlers/websearch/tavily.py:28
+msgid "Perform an image search and include the results in the response."
+msgstr "Képes keresés végrehajtása és az eredmények mellékelése a válaszban."
+
+#: src/handlers/websearch/tavily.py:29
+msgid "Include image descriptions"
+msgstr "Képleírások mellékelése"
+
+#: src/handlers/websearch/tavily.py:29
+msgid ""
+"When Include images is enabled, also add a descriptive text for each image."
+msgstr ""
+"Ha a „Képek mellékelése” engedélyezve van, adjon hozzá leíró szöveget is "
+"minden képhez."
+
+#: src/handlers/websearch/tavily.py:30
+msgid "Include domains"
+msgstr "Domainek mellékelése"
+
+#: src/handlers/websearch/tavily.py:30
+msgid "A list of domains to specifically include in the search results."
+msgstr ""
+"Azon domainek listája, amelyeket kifejezetten bele kell foglalni a keresési "
+"eredményekbe."
+
+#: src/handlers/websearch/tavily.py:31
+msgid "Exclude domains"
+msgstr "Domainek kizárása"
+
+#: src/handlers/websearch/tavily.py:31
+msgid "A list of domains to specifically exclude from the search results."
+msgstr ""
+"Azon domainek listája, amelyeket kifejezetten ki kell zárni a keresési "
+"eredményekből."
+
+#: src/handlers/websearch/duckduckgo_handler.py:29
+msgid "Region"
+msgstr "Régió"
+
+#: src/handlers/websearch/duckduckgo_handler.py:29
+msgid "Region for the search results"
+msgstr "Régió a keresési eredményekhez"
+
+#: src/handlers/websearch/duckduckgo_handler.py:30
+#, fuzzy
+msgid "Search Engine"
+msgstr "Keresési karakterlánc"
+
+#: src/handlers/websearch/duckduckgo_handler.py:30
+#, fuzzy
+msgid "Search engine to use"
+msgstr "A használandó hang"
+
+#: src/handlers/embeddings/openai_handler.py:35
+#: src/handlers/llm/openai_handler.py:86
+msgid "API Key for "
+msgstr "API kulcs ehhez: "
+
+#: src/handlers/embeddings/openai_handler.py:38
+#: src/handlers/embeddings/ollama_handler.py:32
+#: src/handlers/stt/openaisr_handler.py:10
+#: src/handlers/llm/openai_handler.py:89 src/handlers/llm/ollama_handler.py:279
+msgid "API Endpoint"
+msgstr "API végpont"
+
+#: src/handlers/embeddings/openai_handler.py:38
+msgid "API base url, change this to use different APIs"
+msgstr "API alap URL, ezt módosítva használhatók más API-k"
+
+#: src/handlers/embeddings/openai_handler.py:41
+#: src/handlers/llm/openai_handler.py:92
+msgid "Use Custom Model"
+msgstr "Egyéni modell használata"
+
+#: src/handlers/embeddings/openai_handler.py:41
+#: src/handlers/embeddings/ollama_handler.py:34
+#: src/handlers/llm/openai_handler.py:92 src/handlers/llm/ollama_handler.py:282
+#: src/handlers/llm/claude_handler.py:85
+msgid "Use a custom model"
+msgstr "Egyéni modell használata"
+
+#: src/handlers/embeddings/openai_handler.py:44
+msgid "Name of the Embedding Model to use"
+msgstr "A használni kívánt beágyazási modell neve"
+
+#: src/handlers/embeddings/openai_handler.py:51
+#: src/handlers/llm/openai_handler.py:105
+msgid " Model"
+msgstr " Modell"
+
+#: src/handlers/embeddings/openai_handler.py:52
+#: src/handlers/llm/openai_handler.py:106
+#, fuzzy, python-brace-format
+msgid "Name of the {provider_name} Model"
+msgstr "A Groq modell neve"
+
+#: src/handlers/embeddings/ollama_handler.py:32
+#: src/handlers/llm/openai_handler.py:89 src/handlers/llm/ollama_handler.py:279
+msgid "API base url, change this to use interference APIs"
+msgstr "API alap URL, ezt módosítva használhatók az interferencia API-k"
+
+#: src/handlers/embeddings/ollama_handler.py:33
+#: src/handlers/llm/ollama_handler.py:280
+msgid "Automatically Serve"
+msgstr "Automatikus kiszolgálás"
+
+#: src/handlers/embeddings/ollama_handler.py:33
+#: src/handlers/llm/ollama_handler.py:280
+msgid ""
+"Automatically run ollama serve in background when needed if it's not "
+"running. You can kill it with killall ollama"
+msgstr ""
+"Automatikusan futtatja az ollama kiszolgálót a háttérben, ha szükséges és "
+"nem fut. A „killall ollama” paranccsal leállíthatja."
+
+#: src/handlers/embeddings/ollama_handler.py:34
+#: src/handlers/llm/ollama_handler.py:282
+msgid "Custom Model"
+msgstr "Egyéni modell"
+
+#: src/handlers/embeddings/ollama_handler.py:40
+#: src/handlers/embeddings/ollama_handler.py:49
+#: src/handlers/llm/ollama_handler.py:288
+#: src/handlers/llm/ollama_handler.py:297
+msgid "Ollama Model"
+msgstr "Ollama modell"
+
+#: src/handlers/embeddings/ollama_handler.py:41
+#: src/handlers/embeddings/ollama_handler.py:49
+#: src/handlers/llm/ollama_handler.py:289
+#: src/handlers/llm/ollama_handler.py:297
+msgid "Name of the Ollama Model"
+msgstr "Az Ollama modell neve"
+
+#: src/handlers/stt/groqsr_handler.py:14
+msgid "API Key for Groq SR, write 'default' to use the default one"
+msgstr ""
+"API kulcs a Groq SR-hez, írja be a „default” szót az alapértelmezett "
+"használatához"
+
+#: src/handlers/stt/groqsr_handler.py:21
+msgid "Groq Model"
+msgstr "Groq modell"
+
+#: src/handlers/stt/groqsr_handler.py:22
+msgid "Name of the Groq Model"
+msgstr "A Groq modell neve"
+
+#: src/handlers/stt/groqsr_handler.py:30
+msgid ""
+"Specify the language for transcription. Use ISO 639-1 language codes (e.g. "
+"\"en\" for English, \"fr\" for French, etc.). "
+msgstr ""
+"Adja meg az átírás nyelvét. Használja az ISO 639-1 nyelvkódokat (pl. „en” "
+"angolhoz, „fr” franciához stb.). "
+
+#: src/handlers/stt/googlesr_handler.py:16
+msgid "API Key for Google SR, write 'default' to use the default one"
+msgstr ""
+"API kulcs a Google SR-hez, írja be a „default” szót az alapértelmezett "
+"használatához"
+
+#: src/handlers/stt/googlesr_handler.py:24
+msgid "The language of the text to recgnize in IETF"
+msgstr "A felismert szöveg nyelve az IETF szabvány szerint"
+
+#: src/handlers/stt/custom_handler.py:15
+#, python-brace-format
+msgid "{0} will be replaced with the model fullpath"
+msgstr "{0} helyére a modell teljes útvonala kerül."
+
+#: src/handlers/stt/openaisr_handler.py:11
+msgid "Endpoint for OpenAI requests"
+msgstr "Végpont az OpenAI kérésekhez"
+
+#: src/handlers/stt/openaisr_handler.py:18
+msgid "API Key for OpenAI"
+msgstr "API kulcs az OpenAI-hoz"
+
+#: src/handlers/stt/openaisr_handler.py:25
+msgid "Whisper Model"
+msgstr "Whisper modell"
+
+#: src/handlers/stt/openaisr_handler.py:26
+msgid "Name of the OpenAI model"
+msgstr "Az OpenAI modell neve"
+
+#: src/handlers/stt/openaisr_handler.py:33
+msgid ""
+"Optional: Specify the language for transcription. Use ISO 639-1 language "
+"codes (e.g. \"en\" for English, \"fr\" for French, etc.). "
+msgstr ""
+"Opcionális: Adja meg az átírás nyelvét. Használja az ISO 639-1 nyelvkódokat "
+"(pl. „en” angolhoz, „fr” franciához stb.). "
+
+#: src/handlers/stt/whispercpp_handler.py:41
+#: src/handlers/stt/whisper_handler.py:16
+msgid "Name of the Whisper model"
+msgstr "A Whisper modell neve"
+
+#: src/handlers/stt/whispercpp_handler.py:47
+#, fuzzy
+msgid "Language of the recognition. For example en, it..."
+msgstr "A felismerés nyelve."
+
+#: src/handlers/stt/whispercpp_handler.py:48
+msgid "Model Library"
+msgstr "Modellkönyvtár"
+
+#: src/handlers/stt/whispercpp_handler.py:48
+msgid "Manage Whisper models"
+msgstr "Whisper modellek kezelése"
+
+#: src/handlers/stt/whispercpp_handler.py:49
+msgid "Advanced Settings"
+msgstr "Haladó beállítások"
+
+#: src/handlers/stt/whispercpp_handler.py:49
+msgid "More advanced settings"
+msgstr "További haladó beállítások"
+
+#: src/handlers/stt/whispercpp_handler.py:50
+#: src/handlers/llm/openai_handler.py:118
+msgid "Temperature"
+msgstr "Hőmérséklet"
+
+#: src/handlers/stt/whispercpp_handler.py:50
+msgid "Temperature to use"
+msgstr "Használandó hőmérséklet"
+
+#: src/handlers/stt/whispercpp_handler.py:51
+msgid "Prompt for the recognition"
+msgstr "Felismerési üzenet"
+
+#: src/handlers/stt/whispercpp_handler.py:51
+msgid "Prompt to use for the recognition"
+msgstr "A felismertetéshez használandó üzenet"
+
+#: src/handlers/stt/vosk_handler.py:16
+msgid "Model Path"
+msgstr "Modellútvonal"
+
+#: src/handlers/stt/vosk_handler.py:17
+msgid "Absolute path to the VOSK model (unzipped)"
+msgstr "Abszolút elérési út a VOSK modellhez (kicsomagolva)"
+
+#: src/handlers/stt/witai_handler.py:14
+msgid "Server Access Token for wit.ai"
+msgstr "Szerver hozzáférési token a wit.ai-hoz"
+
+#: src/handlers/stt/sphinx_handler.py:19
+msgid "Could not understand the audio"
+msgstr "Nem sikerült értelmezni a hangot"
+
+#: src/handlers/rag/llamaindex_handler.py:70
+#: src/handlers/rag/rag_handler.py:142
+msgid "Index your documents"
+msgstr "Dokumentumok indexelése"
+
+#: src/handlers/rag/llamaindex_handler.py:71
+#, fuzzy
+msgid ""
+"Index all the documents in your document folder. You have to run this "
+"operation every time you change document analyzer or change embedding model. "
+"If you add/delete/edit documents, run the refresh."
+msgstr ""
+"Indexelje az összes dokumentumot a dokumentum mappájában. Ezt a műveletet "
+"minden alkalommal el kell végeznie, amikor módosít vagy létrehoz egy "
+"dokumentumot, megváltoztatja a dokumentumelemzőt vagy a beágyazási modellt."
+
+#: src/handlers/rag/rag_handler.py:143
+msgid ""
+"Index all the documents in your document folder. You have to run this "
+"operation every time you edit/create a document, change document analyzer or "
+"change embedding model"
+msgstr ""
+"Indexelje az összes dokumentumot a dokumentum mappájában. Ezt a műveletet "
+"minden alkalommal el kell végeznie, amikor módosít vagy létrehoz egy "
+"dokumentumot, megváltoztatja a dokumentumelemzőt vagy a beágyazási modellt."
+
+#: src/handlers/translator/customtr_handler.py:19 src/translator.py:68
+#, fuzzy, python-brace-format
+msgid "{0} will be replaced with the text to translate"
+msgstr "{0} helyére a modell teljes útvonala kerül."
+
+#: src/handlers/llm/g4f_handler.py:44
+msgid "Model to use"
+msgstr "Használandó modell"
+
+#: src/handlers/llm/g4f_handler.py:45
+msgid "Update G4F"
+msgstr "G4F frissítése"
+
+#: src/handlers/llm/newelle_handler.py:18
+#: src/handlers/llm/openai_handler.py:138
+#: src/handlers/llm/gemini_handler.py:131
+msgid "Privacy Policy"
+msgstr "Adatvédelmi irányelvek"
+
+#: src/handlers/llm/newelle_handler.py:19
+#: src/handlers/llm/openai_handler.py:138
+#: src/handlers/llm/gemini_handler.py:132
+msgid "Open privacy policy website"
+msgstr "Adatvédelmi irányelvek webhelyének megnyitása"
+
+#: src/handlers/llm/custom_handler.py:21
+msgid "Command to execute to get bot output"
+msgstr "Futtatandó parancs a bot kimenetének lekéréséhez"
+
+#: src/handlers/llm/custom_handler.py:21
+#, python-brace-format
+msgid ""
+"Command to execute to get bot response, {0} will be replaced with a JSON "
+"file containing the chat, {1} with the system prompt"
+msgstr ""
+"Futtatandó parancs a bot válaszának lekéréséhez, a {0} helyére egy JSON fájl "
+"kerül a csevegéssel, az {1} helyére pedig a rendszerüzenet."
+
+#: src/handlers/llm/custom_handler.py:22
+msgid "Command to execute to get bot's suggestions"
+msgstr "Futtatandó parancs a bot javaslatainak lekéréséhez"
+
+#: src/handlers/llm/custom_handler.py:22
+#, python-brace-format
+msgid ""
+"Command to execute to get chat suggestions, {0} will be replaced with a JSON "
+"file containing the chat, {1} with the extra prompts, {2} with the numer of "
+"suggestions to generate. Must return a JSON array containing the suggestions "
+"as strings"
+msgstr ""
+"Futtatandó parancs a csevegési javaslatok lekéréséhez, a {0} helyére egy "
+"JSON fájl kerül a csevegéssel, az {1} helyére a további üzenetekkel, a {2} "
+"helyére pedig a generálandó javaslatok számával. Egy JSON tömböt kell "
+"visszaadnia, amely a javaslatokat karakterláncként tartalmazza."
+
+#: src/handlers/llm/openai_handler.py:95 src/handlers/llm/gemini_handler.py:135
+msgid "Advanced Parameters"
+msgstr "Haladó paraméterek"
+
+#: src/handlers/llm/openai_handler.py:95
+#, fuzzy
+msgid "Include parameters like Top-P, Temperature, etc."
+msgstr ""
+"Tartalmazza az olyan paramétereket, mint a Max Tokens, Top-P, Temperature, "
+"stb."
+
+#: src/handlers/llm/openai_handler.py:98
+msgid "Name of the LLM Model to use"
+msgstr "A használni kívánt LLM modell neve"
+
+#: src/handlers/llm/openai_handler.py:117
+msgid "Top-P"
+msgstr "Top-P"
+
+#: src/handlers/llm/openai_handler.py:117
+msgid "An alternative to sampling with temperature, called nucleus sampling"
+msgstr ""
+"A hőmérséklettel történő mintavételezés alternatívája, az úgynevezett "
+"nucleus mintavételezés"
+
+#: src/handlers/llm/openai_handler.py:118
+msgid ""
+"What sampling temperature to use. Higher values will make the output more "
+"random"
+msgstr ""
+"Milyen mintavételezési hőmérsékletet használjon. Magasabb értékek "
+"véletlenszerűbbé teszik a kimenetet."
+
+#: src/handlers/llm/openai_handler.py:119
+msgid "Frequency Penalty"
+msgstr "Frekvencia büntetés"
+
+#: src/handlers/llm/openai_handler.py:119
+msgid ""
+"Number between -2.0 and 2.0. Positive values decrease the model's likelihood "
+"to repeat the same line verbatim"
+msgstr ""
+"Szám -2,0 és 2,0 között. A pozitív értékek csökkentik annak valószínűségét, "
+"hogy a modell szó szerint megismételje ugyanazt a sort."
+
+#: src/handlers/llm/openai_handler.py:120
+msgid "Presence Penalty"
+msgstr "Jelenlét büntetés"
+
+#: src/handlers/llm/openai_handler.py:120
+msgid ""
+"Number between -2.0 and 2.0. Positive values decrease the model's likelihood "
+"to talk about new topics"
+msgstr ""
+"Szám -2,0 és 2,0 között. A pozitív értékek csökkentik annak valószínűségét, "
+"hogy a modell új témákról beszéljen."
+
+#: src/handlers/llm/openai_handler.py:123
+#, fuzzy
+msgid "Thinking Mode"
+msgstr "Gondolkodási költségvetés"
+
+#: src/handlers/llm/openai_handler.py:123
+#, fuzzy
+msgid "Enable thinking mode for the model"
+msgstr "Gondolkodási költségvetés engedélyezése"
+
+#: src/handlers/llm/openai_handler.py:128
+#, fuzzy
+msgid "Thinking Effort"
+msgstr "Gondolkodási költségvetés"
+
+#: src/handlers/llm/openai_handler.py:129
+msgid "Amount of reasoning effort to allocate for the model"
+msgstr ""
+
+#: src/handlers/llm/openai_handler.py:134
+#, fuzzy
+msgid "Custom Options"
+msgstr "Egyéni üzenet"
+
+#: src/handlers/llm/openai_handler.py:134
+msgid "Provide a JSON containing the custom options"
+msgstr ""
+
+#: src/handlers/llm/ollama_handler.py:272
+#, fuzzy
+msgid "Open model library"
+msgstr "Modellkönyvtár"
+
+#: src/handlers/llm/ollama_handler.py:273
+msgid "Open the model library to download or remove models"
+msgstr ""
+
+#: src/handlers/llm/ollama_handler.py:281
+#: src/handlers/llm/gemini_handler.py:110
+msgid "Enable Thinking"
+msgstr "Gondolkodás engedélyezése"
+
+#: src/handlers/llm/ollama_handler.py:281
+msgid "Allow thinking in the model, only some models are supported"
+msgstr "Gondolkodás engedélyezése a modellben, csak néhány modell támogatott"
+
+#: src/handlers/llm/ollama_handler.py:300
+msgid "Update Ollama"
+msgstr "Ollama frissítése"
+
+#: src/handlers/llm/claude_handler.py:96
+msgid "Max Tokens"
+msgstr "Max tokenek"
+
+#: src/handlers/llm/claude_handler.py:96
+msgid "The maximum number of tokens to generate"
+msgstr "A generálandó tokenek maximális száma"
+
+#: src/handlers/llm/openrouter_handler.py:14
+msgid "Provider Sorting"
+msgstr "Szolgáltató rendezés"
+
+#: src/handlers/llm/openrouter_handler.py:14
+msgid "Choose providers based on pricing/throughput or latency"
+msgstr "Válasszon szolgáltatókat ár/átviteli sebesség vagy késleltetés alapján"
+
+#: src/handlers/llm/openrouter_handler.py:14
+msgid "Price"
+msgstr "Ár"
+
+#: src/handlers/llm/openrouter_handler.py:14
+msgid "Throughput"
+msgstr "Átviteli sebesség"
+
+#: src/handlers/llm/openrouter_handler.py:14
+msgid "Latency"
+msgstr "Késleltetés"
+
+#: src/handlers/llm/openrouter_handler.py:15
+msgid "Providers Order"
+msgstr "Szolgáltatók sorrendje"
+
+#: src/handlers/llm/openrouter_handler.py:15
+msgid ""
+"Add order of providers to use, names separated by a comma.\n"
+"Empty to not specify"
+msgstr ""
+"Adja meg a használandó szolgáltatók sorrendjét, a neveket vesszővel "
+"elválasztva.\n"
+"Hagyja üresen, ha nem kívánja megadni."
+
+#: src/handlers/llm/openrouter_handler.py:16
+msgid "Allow Fallbacks"
+msgstr "Visszalépések engedélyezése"
+
+#: src/handlers/llm/openrouter_handler.py:16
+msgid "Allow fallbacks to other providers"
+msgstr "Más szolgáltatókra való visszalépések engedélyezése"
+
+#: src/handlers/llm/gemini_handler.py:94
+msgid "API Key (required)"
+msgstr "API kulcs (kötelező)"
+
+#: src/handlers/llm/gemini_handler.py:94
+msgid "API key got from ai.google.dev"
+msgstr "Az ai.google.dev-ről szerzett API kulcs"
+
+#: src/handlers/llm/gemini_handler.py:98
+msgid "AI Model to use"
+msgstr "Használandó AI modell"
+
+#: src/handlers/llm/gemini_handler.py:103
+msgid "Enable System Prompt"
+msgstr "Rendszerüzenetek engedélyezése"
+
+#: src/handlers/llm/gemini_handler.py:103
+msgid ""
+"Some models don't support system prompt (or developers instructions), "
+"disable it if you get errors about it"
+msgstr ""
+"Néhány modell nem támogatja a rendszerüzeneteket (vagy a fejlesztői "
+"utasításokat), kapcsolja ki, ha hibákat tapasztal."
+
+#: src/handlers/llm/gemini_handler.py:107
+msgid "Inject system prompt"
+msgstr "Rendszerüzenet beillesztése"
+
+#: src/handlers/llm/gemini_handler.py:107
+msgid ""
+"Even if the model doesn't support system prompts, put the prompts on top of "
+"the user message"
+msgstr ""
+"Még ha a modell nem is támogatja a rendszerüzeneteket, tegye az üzeneteket a "
+"felhasználói üzenet fölé."
+
+#: src/handlers/llm/gemini_handler.py:109
+msgid "Thinking Settings"
+msgstr "Gondolkodási beállítások"
+
+#: src/handlers/llm/gemini_handler.py:109
+msgid "Settings about thinking models"
+msgstr "A gondolkodási modellekre vonatkozó beállítások"
+
+#: src/handlers/llm/gemini_handler.py:110
+msgid "Show thinking, disable it if your model does not support it"
+msgstr "Gondolkodás megjelenítése, kapcsolja ki, ha a modellje nem támogatja"
+
+#: src/handlers/llm/gemini_handler.py:111
+msgid "Enable Thinking Budget"
+msgstr "Gondolkodási költségvetés engedélyezése"
+
+#: src/handlers/llm/gemini_handler.py:111
+msgid "If to enable thinking budget"
+msgstr "Gondolkodási költségvetés engedélyezése"
+
+#: src/handlers/llm/gemini_handler.py:112
+msgid "Thinking Budget"
+msgstr "Gondolkodási költségvetés"
+
+#: src/handlers/llm/gemini_handler.py:112
+msgid "How much time to spend thinking"
+msgstr "Mennyi időt fordítson a gondolkodásra"
+
+#: src/handlers/llm/gemini_handler.py:116
+msgid "Image Output"
+msgstr "Képek kimenet"
+
+#: src/handlers/llm/gemini_handler.py:116
+msgid "Enable image output, only supported by gemini-2.0-flash-exp"
+msgstr "Képkimenet engedélyezése, csak a gemini-2.0-flash-exp támogatja"
+
+#: src/handlers/llm/gemini_handler.py:125
+msgid "Enable safety settings"
+msgstr "Biztonsági beállítások engedélyezése"
+
+#: src/handlers/llm/gemini_handler.py:126
+msgid "Enable google safety settings to avoid generating harmful content"
+msgstr ""
+"Engedélyezze a Google biztonsági beállításait a káros tartalom generálásának "
+"elkerülése érdekében"
+
+#: src/handlers/llm/gemini_handler.py:135
+msgid "Enable advanced parameters"
+msgstr "Haladó paraméterek engedélyezése"
+
+#: src/integrations/default_tools.py:112 src/integrations/default_tools.py:122
+msgid "Media Display"
+msgstr ""
+
+#: src/constants.py:33
+#, fuzzy
+msgid "ZERONE AI Demo API"
+msgstr "Newelle Demó API"
+
+#: src/constants.py:39
+msgid "GPT4Free"
+msgstr "GPT4Free"
+
+#: src/constants.py:47
+msgid "Local Model"
+msgstr "Helyi modell"
+
+#: src/constants.py:48
+msgid ""
+"Run a LLM model locally using LlamaCPP, with possibility to install with "
+"Hardware Acceleration"
+msgstr ""
+
+#: src/constants.py:53
+msgid "Ollama Instance"
+msgstr "Ollama példány"
+
+#: src/constants.py:54
+msgid "Easily run multiple LLM models on your own hardware"
+msgstr "Könnyedén futtathat több LLM modellt saját hardverén"
+
+#: src/constants.py:60
+msgid "Groq"
+msgstr "Groq"
+
+#: src/constants.py:67 src/constants.py:271
+msgid "Google Gemini API"
+msgstr "Google Gemini API"
+
+#: src/constants.py:73 src/constants.py:265 src/constants.py:266
+msgid "OpenAI API"
+msgstr "OpenAI API"
+
+#: src/constants.py:74
+msgid "OpenAI API. Custom endpoints supported. Use this for custom providers"
+msgstr ""
+"OpenAI API. Egyéni végpontok támogatottak. Ezt használja egyéni "
+"szolgáltatókhoz."
+
+#: src/constants.py:79
+msgid "Anthropic Claude"
+msgstr "Anthropic Claude"
+
+#: src/constants.py:80
+msgid ""
+"Official APIs for Anthropic Claude's models, with image and file support, "
+"requires an API key"
+msgstr ""
+"Az Anthropic Claude modelljeinek hivatalos API-jai, kép- és "
+"fájltámogatással, API kulcsot igényelnek"
+
+#: src/constants.py:86
+msgid "Mistral"
+msgstr "Mistral"
+
+#: src/constants.py:87
+msgid "Mistral API"
+msgstr "Mistral API"
+
+#: src/constants.py:94
+msgid "OpenRouter"
+msgstr "OpenRouter"
+
+#: src/constants.py:95
+msgid "Openrouter.ai API, supports lots of models"
+msgstr "Openrouter.ai API, sok modellt támogat"
+
+#: src/constants.py:102
+msgid "Deepseek"
+msgstr "Deepseek"
+
+#: src/constants.py:103
+msgid "Deepseek API, strongest open source models"
+msgstr "Deepseek API, a legerősebb nyílt forráskódú modellek"
+
+#: src/constants.py:109 src/constants.py:238
+msgid "Custom Command"
+msgstr "Egyéni parancs"
+
+#: src/constants.py:110
+msgid "Use the output of a custom command"
+msgstr "Egyéni parancs kimenetének használata"
+
+#: src/constants.py:119
+msgid "Whisper C++"
+msgstr "Whisper C++"
+
+#: src/constants.py:120
+msgid "Works offline. Optimized Whisper impelementation written in C++"
+msgstr "Offline is működik. Optimalizált Whisper implementáció C++ nyelven."
+
+#: src/constants.py:126
+msgid "CMU Sphinx"
+msgstr "CMU Sphinx"
+
+#: src/constants.py:127
+msgid "Works offline. Only English supported"
+msgstr "Offline is működik. Csak angol támogatott"
+
+#: src/constants.py:133
+msgid "Google Speech Recognition"
+msgstr "Google beszédfelismerés"
+
+#: src/constants.py:134 src/constants.py:140
+msgid "Google Speech Recognition online"
+msgstr "Google online beszédfelismerés"
+
+#: src/constants.py:139
+msgid "Groq Speech Recognition"
+msgstr "Groq beszédfelismerés"
+
+#: src/constants.py:145
+msgid "Wit AI"
+msgstr "Wit AI"
+
+#: src/constants.py:146
+msgid "wit.ai speech recognition free API (language chosen on the website)"
+msgstr ""
+"wit.ai ingyenes beszédfelismerő API (a nyelvet a weboldalon lehet "
+"kiválasztani)"
+
+#: src/constants.py:152
+msgid "Vosk API"
+msgstr "Vosk API"
+
+#: src/constants.py:153
+msgid "Works Offline"
+msgstr "Offline is működik"
+
+#: src/constants.py:159
+msgid "Whisper API"
+msgstr "Whisper API"
+
+#: src/constants.py:160
+msgid "Uses OpenAI Whisper API"
+msgstr "OpenAI Whisper API-t használ"
+
+#: src/constants.py:166
+msgid "Custom command"
+msgstr "Egyéni parancs"
+
+#: src/constants.py:167
+msgid "Runs a custom command"
+msgstr "Egyéni parancsot futtat"
+
+#: src/constants.py:176
+#, fuzzy
+msgid "Edge TTS"
+msgstr "Google TTS"
+
+#: src/constants.py:177
+msgid "Use Microsoft Edge online TTS without any API Key"
+msgstr ""
+
+#: src/constants.py:182
+msgid "Google TTS"
+msgstr "Google TTS"
+
+#: src/constants.py:183
+msgid "Google's text to speech"
+msgstr "A Google szövegfelolvasása"
+
+#: src/constants.py:188
+msgid "Kokoro TTS"
+msgstr "Kokoro TTS"
+
+#: src/constants.py:189
+msgid ""
+"Lightweight and fast open source TTS engine. ~3GB dependencies, 400MB model"
+msgstr ""
+"Könnyű és gyors nyílt forráskódú TTS motor. ~3 GB függőség, 400 MB modell"
+
+#: src/constants.py:194
+msgid "ElevenLabs TTS"
+msgstr "ElevenLabs TTS"
+
+#: src/constants.py:195
+msgid "Natural sounding TTS"
+msgstr "Természetes hangzású TTS"
+
+#: src/constants.py:200 src/constants.py:201
+msgid "OpenAI TTS"
+msgstr "OpenAI TTS"
+
+#: src/constants.py:206
+msgid "Groq TTS"
+msgstr "Groq TTS"
+
+#: src/constants.py:207
+msgid "Groq TTS API"
+msgstr "Groq TTS API"
+
+#: src/constants.py:212 src/constants.py:213
+msgid "Custom OpenAI TTS"
+msgstr "Egyéni OpenAI TTS"
+
+#: src/constants.py:218
+#, fuzzy
+msgid "Voicevox API"
+msgstr "Vosk API"
+
+#: src/constants.py:219
+msgid ""
+"(Selfhostable) JP ONLY. API for voicevox anime-like natural sounding tts"
+msgstr ""
+
+#: src/constants.py:225
+#, fuzzy
+msgid "VITS API"
+msgstr "Vosk API"
+
+#: src/constants.py:226
+msgid "(Selfhostable) VITS simple API. AI based TTS, very good for Japanese"
+msgstr ""
+
+#: src/constants.py:232
+msgid "Espeak TTS"
+msgstr "Espeak TTS"
+
+#: src/constants.py:233
+msgid "Offline TTS"
+msgstr "Offline TTS"
+
+#: src/constants.py:239
+#, python-brace-format
+msgid "Use a custom command as TTS, {0} will be replaced with the text"
+msgstr "Egyéni parancs használata TTS-ként, a {0} helyére a szöveg kerül."
+
+#: src/constants.py:247
+msgid "WordLlama"
+msgstr "WordLlama"
+
+#: src/constants.py:248
+msgid ""
+"Light local embedding model based on llama. Works offline, very low "
+"resources usage"
+msgstr ""
+"Könnyű, helyi beágyazási modell llama alapokon. Offline is működik, nagyon "
+"alacsony erőforrás-felhasználás"
+
+#: src/constants.py:253
+#, fuzzy
+msgid "Model2Vec"
+msgstr "Modell"
+
+#: src/constants.py:254
+#, fuzzy
+msgid ""
+"State of art light local embedding model. Works offline, very low resource "
+"usage. Suggested for multilingual"
+msgstr ""
+"Könnyű, helyi beágyazási modell llama alapokon. Offline is működik, nagyon "
+"alacsony erőforrás-felhasználás"
+
+#: src/constants.py:259
+msgid "Ollama Embedding"
+msgstr "Ollama beágyazás"
+
+#: src/constants.py:260
+msgid ""
+"Use Ollama models for Embedding. Works offline, very low resources usage"
+msgstr ""
+"Ollama modellek használata beágyazáshoz. Offline is működik, nagyon alacsony "
+"erőforrás-felhasználás"
+
+#: src/constants.py:272
+msgid "Use Google Gemini API to get embeddings"
+msgstr "A Google Gemini API használata beágyazások lekéréséhez"
+
+#: src/constants.py:280
+msgid "User Summary"
+msgstr "Felhasználói összefoglaló"
+
+#: src/constants.py:281
+msgid "Generate a summary of the user's conversation"
+msgstr "A felhasználói beszélgetés összefoglalójának generálása"
+
+#: src/constants.py:286
+#, fuzzy
+msgid "Agentic Memory"
+msgstr "Hosszú távú memória"
+
+#: src/constants.py:287
+msgid ""
+"Long term memory using Agentic Memory. Stores conversations in a vector "
+"store. Uses semantic search to retrieve memories."
+msgstr ""
+
+#: src/constants.py:292
+msgid "Semantic Memory"
+msgstr ""
+
+#: src/constants.py:293
+msgid ""
+"Long term memory using LlamaIndex. Stores conversations in a vector store. "
+"Uses semantic search to retrieve memories."
+msgstr ""
+
+#: src/constants.py:298
+msgid "Memoripy"
+msgstr "Memoripy"
+
+#: src/constants.py:299
+msgid ""
+"Extract messages from previous conversations using contextual memory "
+"retrivial, memory decay, concept extraction and other advanced techniques. "
+"Does 1 llm call per message."
+msgstr ""
+"Üzenetek kinyerése korábbi beszélgetésekből kontextuális memória "
+"visszanyerésével, memóriaromlással, koncepciókinyeréssel és egyéb haladó "
+"technikákkal. Üzenetenként 1 llm hívást végez."
+
+#: src/constants.py:304
+msgid "User Summary + Memoripy"
+msgstr "Felhasználói összefoglaló + Memoripy"
+
+#: src/constants.py:305
+msgid "Use both technologies for long term memory"
+msgstr "Mindkét technológia használata a hosszú távú memóriához"
+
+#: src/constants.py:313
+msgid "Document reader"
+msgstr "Dokumentumolvasó"
+
+#: src/constants.py:314
+msgid ""
+"Classic RAG approach - chunk documents and embed them, then compare them to "
+"the query and return the most relevant documents"
+msgstr ""
+"Klasszikus RAG megközelítés – dokumentumok darabolása és beágyazása, majd "
+"összehasonlítása a lekérdezéssel, és a legrelevánsabb dokumentumok "
+"visszaadása"
+
+#: src/constants.py:321
+msgid "Live2D"
+msgstr ""
+
+#: src/constants.py:322
+msgid "Cubism Live2D, usually used by VTubers"
+msgstr ""
+
+#: src/constants.py:327
+msgid "LivePNG"
+msgstr ""
+
+#: src/constants.py:328
+msgid "LivePNG model"
+msgstr ""
+
+#: src/constants.py:333
+msgid "VRM Avatar"
+msgstr ""
+
+#: src/constants.py:334
+msgid "3D models in .vrm format"
+msgstr ""
+
+#: src/constants.py:342
+msgid "Google Translator"
+msgstr ""
+
+#: src/constants.py:343
+msgid "Use Google transate"
+msgstr ""
+
+#: src/constants.py:348
+msgid "Libre Translate"
+msgstr ""
+
+#: src/constants.py:349 src/constants.py:355
+msgid "Open source self hostable translator"
+msgstr ""
+
+#: src/constants.py:354
+msgid "Ligva Translate"
+msgstr ""
+
+#: src/constants.py:360
+#, fuzzy
+msgid "Custom Translator"
+msgstr "Egyéni üzenet"
+
+#: src/constants.py:361
+#, fuzzy
+msgid "Use a custom translator"
+msgstr "Egyéni modell használata"
+
+#: src/constants.py:369
+msgid "SearXNG"
+msgstr "SearXNG"
+
+#: src/constants.py:370
+msgid "SearXNG - Private and selfhostable search engine"
+msgstr "SearXNG – Privát és saját tárhelyű keresőmotor"
+
+#: src/constants.py:375
+msgid "DuckDuckGo"
+msgstr "DuckDuckGo"
+
+#: src/constants.py:376
+msgid "DuckDuckGo search"
+msgstr "DuckDuckGo keresés"
+
+#: src/constants.py:381
+msgid "Tavily"
+msgstr "Tavily"
+
+#: src/constants.py:382
+msgid "Tavily search"
+msgstr "Tavily keresés"
+
+#: src/constants.py:513
+msgid "Helpful assistant"
+msgstr "Segítőkész asszisztens"
+
+#: src/constants.py:514
+msgid "General purpose prompt to enhance the LLM answers and give more context"
+msgstr ""
+"Általános célú üzenet az LLM válaszainak javítására és további kontextus "
+"biztosítására"
+
+#: src/constants.py:522
+msgid "Console access"
+msgstr "Konzol hozzáférés"
+
+#: src/constants.py:523
+msgid "Can the program run terminal commands on the computer"
+msgstr "Futtathat-e a program terminálparancsokat a számítógépen"
+
+#: src/constants.py:530
+msgid "Basic functionality"
+msgstr "Alapvető funkcionalitás"
+
+#: src/constants.py:531
+msgid "Showing tables and code (*can work without it)"
+msgstr "Táblázatok és kód megjelenítése (*nélkül is működhet)"
+
+#: src/constants.py:539
+msgid "Graphs access"
+msgstr "Grafikonok hozzáférés"
+
+#: src/constants.py:540
+msgid "Can the program display graphs"
+msgstr "Képes-e a program grafikonokat megjeleníteni"
+
+#: src/constants.py:548
+#, fuzzy
+msgid "Show expressions"
+msgstr "Bővítmények letöltése"
+
+#: src/constants.py:549
+msgid "Let the avatar show expressions"
+msgstr ""
+
+#: src/constants.py:557
+msgid "Show a personality"
+msgstr ""
+
+#: src/constants.py:558
+#, fuzzy
+msgid "Show a personality in chat"
+msgstr "Kép megjelenítése a csevegésben"
+
+#: src/constants.py:567
+#, fuzzy
+msgid "List tools available to the LLM"
+msgstr "Elérhető modellek listája"
+
+#: src/constants.py:575
+msgid "Custom Prompt"
+msgstr "Egyéni üzenet"
+
+#: src/constants.py:576
+msgid "Add your own custom prompt"
+msgstr "Adja hozzá saját egyéni üzenetét"
+
+#: src/constants.py:626
+msgid "LLM and Secondary LLM settings"
+msgstr "LLM és másodlagos LLM beállítások"
+
+#: src/constants.py:631
+msgid "Text to Speech settings"
+msgstr "Szövegfelolvasó beállítások"
+
+#: src/constants.py:634
+msgid "STT"
+msgstr "STT"
+
+#: src/constants.py:636
+msgid "Speech to Text settings"
+msgstr "Beszédfelismerő beállítások"
+
+#: src/constants.py:641
+#, fuzzy
+msgid "Avatar settings"
+msgstr "Haladó beállítások"
+
+#: src/constants.py:644
+msgid "Embedding"
+msgstr "Beágyazás"
+
+#: src/constants.py:646
+msgid "Embedding settings"
+msgstr "Beágyazási beállítások"
+
+#: src/constants.py:649
+msgid "Memory"
+msgstr "Memória"
+
+#: src/constants.py:651
+msgid "Memory settings"
+msgstr "Memória beállítások"
+
+#: src/constants.py:654
+msgid "Websearch"
+msgstr "Webkeresés"
+
+#: src/constants.py:656
+msgid "Websearch settings"
+msgstr "Webkeresési beállítások"
+
+#: src/constants.py:659
+msgid "RAG"
+msgstr "RAG"
+
+#: src/constants.py:661
+msgid "Document analyzer settings"
+msgstr "Dokumentumelemző beállításai"
+
+#: src/constants.py:666
+msgid "Extensions settings"
+msgstr "Bővítmények beállításai"
+
+#: src/constants.py:669
+msgid "Inteface"
+msgstr "Felület"
+
+#: src/constants.py:671
+msgid "Interface settings, hidden files, reverse order, zoom..."
+msgstr "Felület beállításai, rejtett fájlok, fordított sorrend, nagyítás..."
+
+#: src/constants.py:676
+msgid ""
+"General settings, virtualization, offers, memory length, automatically "
+"generate chat name, current folder..."
+msgstr ""
+"Általános beállítások, virtualizáció, ajánlatok, memóriahossz, automatikus "
+"csevegésnév generálás, aktuális mappa..."
+
+#: src/constants.py:681
+msgid "Prompts settings, custom extra prompt, custom prompts..."
+msgstr "Üzenet beállítások, egyéni extra üzenet, egyéni üzenetek..."
+
+#: src/constants.py:686
+msgid "Tools settings, tools groups..."
+msgstr ""
+
+#: src/window.py:155
+msgid "Keyboard shorcuts"
+msgstr "Billentyűparancsok"
+
+#: src/window.py:159
+msgid "Export current chat"
+msgstr ""
+
+#: src/window.py:160
+#, fuzzy
+msgid "Export all chats"
+msgstr "Csevegés létrehozása"
+
+#: src/window.py:161
+#, fuzzy
+msgid "Import chats"
+msgstr "Importálás"
+
+#: src/window.py:166
+#, fuzzy
+msgid "Export/Import"
+msgstr "Exportálás"
+
+#: src/window.py:168
+msgid "About"
+msgstr "Névjegy"
+
+#: src/window.py:177 src/window.py:253
+msgid "Chat"
+msgstr "Csevegés"
+
+#: src/window.py:219
+msgid "History"
+msgstr "Előzmények"
+
+#: src/window.py:252
+msgid "Chats"
+msgstr "Csevegések"
+
+#: src/window.py:325
+#, fuzzy
+msgid "New Tab"
+msgstr "Új lap"
+
+#: src/window.py:406
+msgid "Explorer Tab"
+msgstr "Fájlkezelő lap"
+
+#: src/window.py:407
+msgid "Terminal Tab"
+msgstr "Terminál lap"
+
+#: src/window.py:408
+msgid "Browser Tab"
+msgstr "Böngésző lap"
+
+#: src/window.py:612
+msgid "Cannot close tab while generating"
+msgstr ""
+
+#: src/window.py:644
+#, fuzzy, python-format
+msgid "Chat %d"
+msgstr "Csevegés "
+
+#: src/window.py:696
+msgid "Provider Errror"
+msgstr "Szolgáltató hiba"
+
+#: src/window.py:1050
+msgid "This provider does not have a model list"
+msgstr "Ennek a szolgáltatónak nincs modelllistája"
+
+#: src/window.py:1055
+msgid " Models"
+msgstr " Modellek"
+
+#: src/window.py:1058
+msgid "Search Models..."
+msgstr "Modellek keresése..."
+
+#: src/window.py:1364
+msgid "Create new profile"
+msgstr "Új profil létrehozása"
+
+#: src/window.py:1498
+msgid "Could not recognize your voice"
+msgstr "Nem sikerült felismerni a hangját"
+
+#: src/window.py:1535
+msgid "Images"
+msgstr "Képek"
+
+#: src/window.py:1539
+msgid "LLM Supported Files"
+msgstr "LLM támogatott fájlok"
+
+#: src/window.py:1547
+msgid "RAG Supported files"
+msgstr "RAG támogatott fájlok"
+
+#: src/window.py:1565
+msgid "Supported Files"
+msgstr "Támogatott fájlok"
+
+#: src/window.py:1569
+msgid "All Files"
+msgstr "Összes fájl"
+
+#: src/window.py:1575
+msgid "Attach file"
+msgstr "Fájl csatolása"
+
+#: src/window.py:1723
+msgid "The file cannot be sent until the program is finished"
+msgstr "A fájl nem küldhető el, amíg a program be nem fejeződik"
+
+#: src/window.py:1746
+msgid "The file is not recognized"
+msgstr "A fájl nem ismerhető fel"
+
+#: src/window.py:2207
+msgid "Wrong folder path"
+msgstr "Hibás mappaelérési út"
+
+#: src/window.py:2240
+msgid "Thread has not been completed, thread number: "
+msgstr "A szál nem fejeződött be, szál száma: "
+
+#: src/window.py:2252
+msgid "Failed to open the folder"
+msgstr "Nem sikerült megnyitni a mappát"
+
+#: src/window.py:2461
+msgid "Chat is empty"
+msgstr "A csevegés üres"
+
+#: src/window.py:2501
+#, fuzzy
+msgid "Failed to export chat"
+msgstr "Nem sikerült másolni az útvonalat"
+
+#: src/window.py:2508
+#, fuzzy
+msgid "Export Chat"
+msgstr "Exportálás"
+
+#: src/window.py:2537
+#, fuzzy
+msgid "Chat exported successfully"
+msgstr "Sikeresen törölve"
+
+#: src/window.py:2541
+#, fuzzy, python-brace-format
+msgid "Export failed: {0}"
+msgstr "Profil exportálása"
+
+#: src/window.py:2547
+#, fuzzy
+msgid "Import Chat"
+msgstr "Importálás"
+
+#: src/window.py:2593
+msgid "Invalid JSON file"
+msgstr ""
+
+#: src/window.py:2597
+#, fuzzy, python-brace-format
+msgid "Import failed: {0}"
+msgstr "Profil importálása"
+
+#: data/com.zeroneai.app.appdata.xml.in:7 data/com.zeroneai.app.desktop.in:3
+msgid "ZERONE AI"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:9
+msgid ""
+"Your personal waifu always at your service to help you with your system!"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:11
+msgid "Your AI-Powered System Assistant"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:15
+msgid "RAG over uploaded files. Messages render in a live stream"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:19
+msgid "Sending an email via an extension from inside the chat UI"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:23
+msgid "Web search to find the date then the calendar extension adds the event"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:27
+msgid "Using an MCP server to fetch Cloudflare Vectorize docs"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:41
+msgid "Live message rendering while streaming"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:42
+msgid "Redesigned chat history"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:43
+msgid "Chat branching from any message"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:44
+msgid "Native tool calling for OpenAI and Ollama"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:45
+msgid ""
+"Improved llama.cpp install (cancel button) and option to use system llama.cpp"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:46
+msgid "Stability improvements and bug fixes (Ollama JPEG paste, Google import)"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:53
+msgid ""
+"Added llama.cpp integration with options to recompile using different "
+"backends"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:54
+msgid "Implemented a new model library for Ollama and llama.cpp"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:55
+msgid "Implemented hybrid search to improve document reading"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:56
+msgid "Added command execution tool"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:57
+msgid "Added tool groups"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:58
+msgid ""
+"Improved MCP server adding, including STDIO support for non-Flatpak setups"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:59
+msgid "Added semantic memory handler"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:60
+msgid "Added chat import/export"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:61
+msgid "Added custom folders support for the RAG index"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:62
+msgid ""
+"Improved message info menu (token count + token speed), plus multiple minor "
+"improvements and fixes"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:69
+msgid "Added MCP servers support"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:70
+msgid "Added tools (explicitly), extensions can add their own tools"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:71
+msgid "Added the possibility to set some models as favourites"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:72
+msgid "You can now trigger keyboard shortcuts actions using commands"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:79
+msgid "Update GNOME 49 runtime"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:80
+#, fuzzy
+msgid "Add custom body for OpenAI handler"
+msgstr "Egyéni modell hozzáadása"
+
+#: data/com.zeroneai.app.appdata.xml.in:81
+msgid "Add ability to remember profile per chat"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:82
+msgid "Preinstall openai module"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:83
+msgid "Fix miscellaneous bugs"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:90
+#: data/com.zeroneai.app.appdata.xml.in:114
+#: data/com.zeroneai.app.appdata.xml.in:137
+#: data/com.zeroneai.app.appdata.xml.in:198
+#: data/com.zeroneai.app.appdata.xml.in:203
+#: data/com.zeroneai.app.appdata.xml.in:208
+#: data/com.zeroneai.app.appdata.xml.in:213
+#: data/com.zeroneai.app.appdata.xml.in:218
+msgid "Bug fixes"
+msgstr "Hibajavítások"
+
+#: data/com.zeroneai.app.appdata.xml.in:97
+msgid ""
+"Mini Apps support! Extensions can now show custom mini apps on the sidebar"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:98
+msgid ""
+"Added integrated browser Mini App: browse the web directly in ZERONE AI and "
+"attach web pages"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:99
+msgid "Improved integrated file manager, supporting multiple file operations"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:100
+msgid "Integrated file editor: edit files and codeblocks directly in ZERONE AI"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:101
+msgid "Integrated Terminal mini app: open the terminal directly in ZERONE AI"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:102
+msgid ""
+"Programmable prompts: add dynamic content to prompts with conditionals and "
+"random strings"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:103
+msgid "Add ability to manually edit chat name"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:104
+#, fuzzy
+msgid "Minor bug fixes"
+msgstr "Hibajavítások"
+
+#: data/com.zeroneai.app.appdata.xml.in:105
+msgid "Added support for multiple languages for Kokoro TTS and Whisper.CPP"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:106
+msgid "Run HTML/CSS/JS websites directly in app"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:107
+msgid "New animation on chat change"
+msgstr ""
+
+#: data/com.zeroneai.app.appdata.xml.in:115
+msgid "Small improvements"
+msgstr "Apró fejlesztések"
+
+#: data/com.zeroneai.app.appdata.xml.in:122
+msgid "Improve local documents reading and loading performances"
+msgstr "A helyi dokumentumok olvasási és betöltési teljesítményének javítása"
+
+#: data/com.zeroneai.app.appdata.xml.in:123
+msgid "Add option to send with CTRL+Enter"
+msgstr "Hozzáadva a CTRL+Enter billentyűvel való küldés lehetősége"
+
+#: data/com.zeroneai.app.appdata.xml.in:124
+msgid "Improve codeblocks"
+msgstr "Kódblokkok fejlesztése"
+
+#: data/com.zeroneai.app.appdata.xml.in:125
+msgid "Fix Kokoro TTS"
+msgstr "Kokoro TTS javítása"
+
+#: data/com.zeroneai.app.appdata.xml.in:126
+msgid "Remove emoji from TTS"
+msgstr "Hangulatjelek eltávolítása a TTS-ből"
+
+#: data/com.zeroneai.app.appdata.xml.in:127
+msgid "Set API keys as password fields"
+msgstr "API kulcsok jelszómezőként való beállítása"
+
+#: data/com.zeroneai.app.appdata.xml.in:128
+msgid "Add thinking support for Gemini"
+msgstr "Gondolkodási támogatás hozzáadása a Geminihez"
+
+#: data/com.zeroneai.app.appdata.xml.in:129
+msgid "Updated translations"
+msgstr "Frissített fordítások"
+
+#: data/com.zeroneai.app.appdata.xml.in:136
+msgid "Added new features"
+msgstr "Új funkciók hozzáadva"
+
+#: data/com.zeroneai.app.appdata.xml.in:144
+msgid "Website reading and web search with SearXNG, DuckDuckGo, and Tavily"
+msgstr ""
+"Weboldal olvasás és webes keresés SearXNG, DuckDuckGo és Tavily segítségével"
+
+#: data/com.zeroneai.app.appdata.xml.in:145
+msgid "Improved LaTeX rendering and document management"
+msgstr "Javított LaTeX renderelés és dokumentumkezelés"
+
+#: data/com.zeroneai.app.appdata.xml.in:146
+msgid "New Thinking Widget and OpenRouter handler"
+msgstr "Új gondolkodási widget és OpenRouter kezelő"
+
+#: data/com.zeroneai.app.appdata.xml.in:147
+msgid "Vision support for Llama4 on Groq"
+msgstr "Látás támogatás a Llama4-hez Groq-on"
+
+#: data/com.zeroneai.app.appdata.xml.in:148
+msgid "New translations (Traditional Chinese, Bengali, Hindi)"
+msgstr "Új fordítások (hagyományos kínai, bengáli, hindi)"
+
+#: data/com.zeroneai.app.appdata.xml.in:154
+msgid "Fixed many bugs, added some features!"
+msgstr "Sok hiba javítva, néhány funkció hozzáadva!"
+
+#: data/com.zeroneai.app.appdata.xml.in:159
+msgid "Support for new features and bug fixes"
+msgstr "Új funkciók és hibajavítások támogatása"
+
+#: data/com.zeroneai.app.appdata.xml.in:164
+#: data/com.zeroneai.app.appdata.xml.in:169
+#: data/com.zeroneai.app.appdata.xml.in:174
+msgid "Added many new features and bug fixes"
+msgstr "Sok új funkció és hibajavítás hozzáadva"
+
+#: data/com.zeroneai.app.appdata.xml.in:179
+#: data/com.zeroneai.app.appdata.xml.in:184
+msgid "Added new features and bug fixes"
+msgstr "Új funkciók és hibajavítások hozzáadva"
+
+#: data/com.zeroneai.app.appdata.xml.in:188
+msgid ""
+"Updated the g4f library with versioning, added user guides, improved "
+"extension browsing, and enhanced model handling."
+msgstr ""
+"Frissült a g4f könyvtár verziózással, felhasználói útmutatók kerültek "
+"hozzáadásra, javult a bővítmények böngészése, és a modellkezelés is "
+"fejlettebb lett."
+
+#: data/com.zeroneai.app.appdata.xml.in:193
+msgid ""
+"Bug fixes and new features have been implemented. We've modified the "
+"extension architecture, added new models, and introduced vision support, "
+"along with more capabilities."
+msgstr ""
+"Hibajavítások és új funkciók kerültek bevezetésre. Módosítottuk a bővítmény "
+"architektúráját, új modelleket adtunk hozzá, és bevezettük a látás "
+"támogatást, valamint további képességeket."
+
+#: data/com.zeroneai.app.appdata.xml.in:223
+msgid "Stable version"
+msgstr "Stabil verzió"
+
+#: data/com.zeroneai.app.appdata.xml.in:228
+msgid "Added extension"
+msgstr "Hozzáadott bővítmény"
+
+#: data/com.zeroneai.app.appdata.xml.in:233
+msgid "Blacklist of commands"
+msgstr "Parancsok feketelistája"
+
+#: data/com.zeroneai.app.appdata.xml.in:238
+msgid "Localization"
+msgstr "Lokalizáció"
+
+#: data/com.zeroneai.app.appdata.xml.in:243
+msgid "Redesign"
+msgstr "Újratervezés"
+
+#: data/com.zeroneai.app.appdata.xml.in:248
+msgid "ZERONEAI"
+msgstr ""
+
+#: data/com.zeroneai.app.gschema.xml:234
+msgid "Application Language"
+msgstr ""
+
+#: data/com.zeroneai.app.gschema.xml:235
+msgid "Language to use for the application interface"
+msgstr ""
+
+#: data/com.zeroneai.app.desktop.in:4
+msgid "Advanced AI waifu to help you"
+msgstr ""
+
+#: data/com.zeroneai.app.desktop.in:11
+msgid "ai;assistant;chat;chatgpt;gpt;llm;ollama;"
+msgstr "ai;asszisztens;csevegés;chatgpt;gpt;llm;ollama;"
+
+#~ msgid "The message was canceled and deleted from history"
+#~ msgstr "Az üzenet törölve és eltávolítva az előzményekből"
+
+#~ msgid "Prompt content"
+#~ msgstr "Üzenet tartalma"
+
+#, fuzzy
+#~ msgid "Model Dimension"
+#~ msgstr "Hozzáadott bővítmény"
+
+#, fuzzy
+#~ msgid "Smart Prompt"
+#~ msgstr "Egyéni üzenet"
+
+#~ msgid "Newelle Profiles"
+#~ msgstr "Newelle profilok"
+
+#~ msgid ""
+#~ "NO GPU SUPPORT, USE OLLAMA INSTEAD. Run a LLM model locally, more privacy "
+#~ "but slower"
+#~ msgstr ""
+#~ "NINCS GPU TÁMOGATÁS, HASZNÁLJON OLLAMA-t. Futtasson LLM modellt helyben, "
+#~ "nagyobb adatvédelem, de lassabb"
+
+#~ msgid "Current directory"
+#~ msgstr "Aktuális könyvtár"
+
+#~ msgid "What is the current directory"
+#~ msgstr "Mi az aktuális könyvtár"
+
+#~ msgid "Allow the LLM to search on the internet"
+#~ msgstr "Engedélyezze az LLM számára az internetes keresést"
+
+#~ msgid "Show image"
+#~ msgstr "Kép megjelenítése"
+
+#~ msgid "Show image in chat"
+#~ msgstr "Kép megjelenítése a csevegésben"
+
+#~ msgid "Model Manager"
+#~ msgstr "Modellkezelő"
+
+#~ msgid ""
+#~ "Add any model to this list by putting name:size\n"
+#~ "Or any gguf from hf with hf.co/username/model"
+#~ msgstr ""
+#~ "Adjon hozzá bármilyen modellt ehhez a listához név:méret formátumban\n"
+#~ "Vagy bármely gguf modellt a hf-ről a hf.co/felhasználónév/modell címen"
+
+#~ msgid "RAM Required: "
+#~ msgstr "Szükséges RAM: "
+
+#~ msgid "Parameters: "
+#~ msgstr "Paraméterek: "
+
+#~ msgid "Size: "
+#~ msgstr "Méret: "
+
+#, fuzzy
+#~ msgid "Chat page 1"
+#~ msgstr "Csevegés "
+
+#, fuzzy
+#~ msgid "Chat page 2"
+#~ msgstr "Csevegés "
+
+#, fuzzy
+#~ msgid "Chat page 3"
+#~ msgstr "Csevegés "
+
+#, fuzzy
+#~ msgid "Chat page 4"
+#~ msgstr "Csevegés "
+
+#~ msgid "Newelle Tips"
+#~ msgstr "Newelle tippek"
+
+#~ msgid "Newelle"
+#~ msgstr "Newelle"
+
+#~ msgid ""
+#~ "Newelle can be used to run commands on your system, but pay attention at "
+#~ "what you run! <b>The LLM is not under our control, so it might generate "
+#~ "malicious code!</b>\n"
+#~ "By default, your commands will be <b>virtualized in the Flatpak "
+#~ "environment</b>, but pay attention!"
+#~ msgstr ""
+#~ "A Newelle parancsok futtatására használható a rendszerén, de figyeljen "
+#~ "oda, mit futtat! <b>Az LLM nem áll az ellenőrzésünk alatt, ezért "
+#~ "rosszindulatú kódot generálhat!</b>\n"
+#~ "Alapértelmezés szerint a parancsok <b>virtualizálva lesznek a Flatpak "
+#~ "környezetben</b>, de figyeljen oda!"
+
+#~ msgid ""
+#~ "Train Newelle to do more with custom extensions and new AI modules, "
+#~ "giving your chatbot endless possibilities."
+#~ msgstr ""
+#~ "Képezze a Newelle-t egyéni bővítményekkel és új AI modulokkal, végtelen "
+#~ "lehetőségeket adva a chatbotjának."
+
+#~ msgid "AI chatbot"
+#~ msgstr "AI chatbot"
+
+#~ msgid "Quick profile selection"
+#~ msgstr "Gyors profilválasztás"
+
+#~ msgid "Message Editing"
+#~ msgstr "Üzenet szerkesztése"
+
+#~ msgid "More than 10 standard AI providers"
+#~ msgstr "Több mint 10 szabványos AI szolgáltató"
+
+#~ msgid "Qwersyk"
+#~ msgstr "Qwersyk"
+
+#~ msgid "Newelle: Your advanced chat bot"
+#~ msgstr "Newelle: Az Ön fejlett chatbotja"
+
+#~ msgid "max Tokens"
+#~ msgstr "Max tokenek"
+
+#~ msgid "Max tokens of the generated text"
+#~ msgstr "A generált szöveg maximális tokenjei"
